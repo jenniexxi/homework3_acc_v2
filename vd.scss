@@ -1,0 +1,11 @@
+@import './scss_global/scss-common';
+
+$dir-now : ltr;
+
+$forward : left;
+$opposite : right;
+
+@import 'swiper.css';
+@import 'scss/neo-qled';
+@import 'scss/neo-qled02';
+@import 'scss/ie_neo-qled';

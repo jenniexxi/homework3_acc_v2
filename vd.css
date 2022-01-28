@@ -1,0 +1,555 @@
+@charset "UTF-8";:root{--vh:100%}
+body,html{height:100vh;height:var(--vh)}
+.vd-show{display:block!important}
+.ie .vd-design-item-list .vd-design-item05:after,.ie .vd-ie-none,.ie .vd-qled-smart .vd-video-box,.vd-cont-monitor,.vd-hide,.vd-ie-block,.vd-low .vd-design-item-list .vd-design-item05:after,.vd-low .vd-ie-none,.vd-low .vd-qled-smart .vd-video-box,.vd-pc-none,.vd-qled-compare .swiper-button-next.swiper-button-disabled,.vd-qled-compare .swiper-button-prev.swiper-button-disabled{display:none}
+.vd-sticky-out{top:inherit!important}
+.vd-wrap{max-width:1920px;margin:0 auto;opacity:0;-webkit-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}
+.vd-common{position:relative;font-family:"SamsungSharpSans",arial,sans-serif;font-weight:700;line-height:1.2}
+.vd-common .vd-w-1440{max-width:1440px;width:100%;margin:0 auto}
+.vd-sticky-in{overflow:hidden;position:-webkit-sticky;position:sticky;top:86px;z-index:1;width:100%}
+.vd-sticky-in.vd-sticky-full{height:calc(100vh - 86px)}
+.vd-qled-quality .vd-qled-quality-start,.vd-qled-sound .vd-qled-sound-video01,.vd-video-box{position:relative;width:100%;height:100%}
+.vd-video-box .vd-video-cont{-o-object-fit:cover;object-fit:cover;width:100%;height:100%;background-size:cover;background-position:center center;background-repeat:no-repeat}
+.vd-cta-wrap{margin-top:50px}
+.vd-cta-wrap.cta-center,.vd-qled-compare .vd-compare-cta-wrap{text-align:center}
+.vd-cta-wrap .vd-btn-link{display:inline}
+.vd-btn-link a{position:relative;padding-bottom:0;font-family:"SamsungOne",arial,sans-serif;font-weight:700;font-size:14px;color:#fff;border-bottom:2px solid #fff}
+.vd-btn-link a span{display:inline-block}
+.vd-btn-link.vd-btn-black a{color:#000!important;border-bottom:2px solid #000!important}
+.vd-btn-link.vd-btn-compare a span{padding-left:26px}
+.vd-btn-link.vd-btn-compare a span:after{content:"";position:absolute;top:-1px;left:0;width:18px;height:14px;background-image:url("../images/ico_compare_white_pc.png");background-repeat:no-repeat;background-position:0 center;background-size:100% 100%}
+.vd-btn-link.vd-btn-black a span:after{background-image:url("../images/ico_compare_black_pc.png")}
+.vd-btn-link+.vd-btn-link{margin-left:30px}
+.vd-video-btn{position:absolute;bottom:20px;left:20px;z-index:10}
+.vd-video-btn .vd-btn-control{position:relative;width:38px;height:38px;border-radius:50%}
+.vd-video-btn .vd-btn-control[class^=vd-btn-]:after{content:'';position:absolute;top:50%;left:50%;width:38px;height:38px;background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.vd-video-btn .vd-btn-control.vd-btn-pause:after{background-image:url("../images/btn_video_stop.png")}
+.vd-video-btn .vd-btn-control.vd-btn-play:after{background-image:url("../images/btn_video_play.png")}
+.vd-header{position:absolute;top:0;left:0;right:0;max-width:1440px;width:100%;margin:0 auto;padding:80px 88px 0;color:#000;z-index:2}
+.vd-header .vd-eyebrow{display:inline-block;font-family:"SamsungOne",arial,sans-serif;font-size:20px;font-weight:700}
+.vd-header .vd-tit{display:block;font-size:64px;line-height:1.15}
+.vd-header .vd-eyebrow+.vd-tit{margin-top:25px}
+[class*="-end"] .vd-cont-inner{padding:0 88px}
+.vd-txt-type01{max-width:720px;width:100%}
+.vd-txt-type01 .vd-desc{display:inline;color:#8d8d8d;font-size:32px;line-height:1.56}
+.vd-txt-type01 .vd-desc span{opacity:.2}
+.vd-txt-type01 .vd-desc strong{color:#fff;opacity:1!important}
+.vd-txt-type01.vd-type-white .vd-desc{color:#757575}
+.vd-qled-compare .compare-product-card .compare-product-name a,.vd-txt-type01.vd-type-white .vd-desc strong{color:#000}
+.vd-info-scroll{position:fixed;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-flow:column;flex-flow:column;bottom:10px;left:50%;width:90px;height:90px;border-radius:50%;color:#fff;background-color:rgba(0,0,0,.53);-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transition:opacity .25s;-o-transition:opacity .25s;transition:opacity .25s;opacity:1;z-index:50;text-align:center}
+.vd-info-scroll .vd-scroll-tit{font-size:14px;font-family:"SamsungOne",arial,sans-serif;font-weight:700}
+.vd-info-scroll .vd-info-cont{position:relative;display:block;width:22px;height:32px;margin-top:6px;border:2px solid #fff;border-radius:20px}
+.vd-info-scroll .vd-info-dot{position:absolute;top:7px;left:50%;width:4px;height:4px;background-color:#fff;border-radius:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-animation-name:ScrollInfo;animation-name:ScrollInfo;-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-iteration-count:3;animation-iteration-count:3}
+@-webkit-keyframes ScrollInfo{
+0%,100%{top:7px}
+50%{top:16px}
+}
+@keyframes ScrollInfo{
+0%,100%{top:7px}
+50%{top:16px}
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+.vd-qled-kv.kv-sticky-top .vd-sticky-in,.vd-sticky-in{top:121px}
+.vd-sticky-in.vd-sticky-full{height:calc(100vh - 121px)}
+}
+.vd-qled-kv .vd-sticky-in{top:0;height:778px}
+.vd-qled-kv.kv-sticky-top .vd-sticky-in{top:86px}
+.vd-qled-kv .vd-txt-wrap{position:absolute;top:0;left:50%;max-width:800px;width:100%;height:778px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);z-index:2}
+.vd-qled-kv .vd-txt-wrap [class^=vd-txt-box]{position:absolute;width:100%;line-height:1.2;font-family:"SamsungSharpSans",arial,sans-serif;font-weight:700;font-size:38px;text-align:center;color:#fff}
+.vd-qled-kv .vd-txt-wrap [class^=vd-txt-box] .vd-tit{display:block;margin-bottom:35px}
+.vd-qled-kv .vd-txt-wrap [class^=vd-txt-box] .vd-tit img{width:344px}
+.vd-qled-kv .vd-txt-wrap .vd-txt-box01{top:160px}
+.ie .vd-qled-acc .vd-qled-acc-story01,.vd-design-item-list .item-inner,.vd-low .vd-qled-acc .vd-qled-acc-story01,.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0],.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0] .item-inner,.vd-qled-smart .vd-sticky-wrap{position:relative}
+.vd-qled-smart .vd-sticky-wrap.vd-sticky-circle{height:2500px}
+.vd-qled-smart .vd-sticky-wrap.vd-sticky-circle .vd-sticky-in{height:860px;margin-bottom:170px}
+.vd-qled-smart .vd-sticky-circle .vd-video-box .vd-video-cont{background-image:url("../images/img_smart_poster_pc.jpg");-webkit-filter:brightness(108.5%)}
+.vd-qled-design .vd-sticky-wrap.vd-sticky-copy,.vd-qled-quality .vd-sticky-wrap.vd-sticky-copy,.vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01,.vd-qled-sound .vd-sticky-wrap.vd-sticky-copy{height:3000px}
+.vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02,.vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03{height:3000px;margin-top:-100vh}
+.vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04{height:4000px;margin-top:-100vh}
+.vd-qled-smart [class^=vd-qled-smart-story0]{overflow:hidden;width:100%;height:100%;zoom:1;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.vd-qled-smart [class^=vd-qled-smart-story0] .story-inner{width:100%;height:100%;background-position:center top;background-repeat:no-repeat;background-size:auto;-webkit-transform-origin:bottom;-ms-transform-origin:bottom;transform-origin:bottom}
+.vd-qled-smart [class^=vd-qled-smart-story0] .vd-txt-wrap{padding-top:78px;text-align:center}
+.vd-qled-smart [class^=vd-qled-smart-story0] .vd-txt-wrap.line-row2{padding-top:73px}
+.vd-qled-smart [class^=vd-qled-smart-story0] .vd-smart-tit{font-size:48px}
+.vd-qled-smart .vd-qled-smart-story01{z-index:2}
+.vd-qled-smart .vd-qled-smart-story01 .story-inner{background-image:url("../images/img_smart_screen01_pc.jpg")}
+.vd-qled-design .vd-header,.vd-qled-smart .vd-qled-smart-story02{z-index:3}
+.vd-qled-smart .vd-qled-smart-story02 .story-inner{background-image:url("../images/img_smart_screen02_pc.jpg")}
+.vd-qled-smart .vd-qled-smart-story03{z-index:4}
+.vd-qled-smart .vd-qled-smart-story03 .story-inner{background-image:url("../images/img_smart_screen03_pc.jpg")}
+.vd-qled-acc .vd-qled-acc-story01.scen,.vd-qled-smart .vd-qled-smart-story04{z-index:5}
+.vd-qled-smart .vd-qled-smart-story04 .story-inner{background-image:url("../images/img_smart_screen04_pc.jpg")}
+.vd-qled-smart .vd-qled-smart-story-end{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:#fff;opacity:0}
+.vd-qled-smart .vd-qled-smart-story-end .vd-txt-wrap{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column nowrap;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-flow:column nowrap;flex-flow:column nowrap;max-width:800px;width:100%;height:100%;padding:0;margin:0 auto;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;opacity:0}
+.vd-qled-smart .vd-qled-smart-story-end .vd-tit{padding:0;font-size:38px}
+.vd-qled-design .vd-sticky-wrap{position:relative;height:17000px;z-index:2;-webkit-perspective:1px;perspective:1px;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
+.vd-qled-design .vd-sticky-in{height:1182px}
+.vd-qled-design .vd-qled-design-video{overflow:hidden;position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top;z-index:2}
+.vd-qled-design .vd-qled-design-video .vd-video-box{position:absolute;top:0;left:50%;width:1920px;height:860px;margin-left:-960px;-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}
+.vd-qled-design .vd-qled-design-video .vd-video-box .vd-video-cont{-o-object-fit:inherit;object-fit:inherit;background-size:100% auto;background-image:url("../images/img_design_poster_pc.jpg")}
+.vd-qled-design .vd-qled-design-story01{overflow:hidden;z-index:1}
+.vd-qled-design .vd-design-scroll-wrap{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column nowrap;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-flow:column nowrap;flex-flow:column nowrap;height:100%}
+.vd-qled-design .vd-design-scroll-outer{position:relative;max-width:669px;width:100%;height:1182px;margin:0 auto}
+.vd-qled-design .vd-design-scroll-outer .vd-design-scroll-inner{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.vd-design-item-list{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;padding-top:347px;transition-property:transform,-webkit-transform;-webkit-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out}
+.vd-design-item-list li:last-child{margin:0}
+.vd-design-item-list [class^=vd-design-item0]{position:relative;z-index:1;height:835px}
+.vd-design-item-list [class^=vd-design-item0] .item-inner{position:relative;-webkit-transform:scale(1) rotate(.001deg);-ms-transform:scale(1) rotate(.001deg);transform:scale(1) rotate(.001deg);-webkit-transition:-webkit-transform .4s;transition:-webkit-transform .4s;-o-transition:transform .4s;transition:transform .4s;transition:transform .4s, -webkit-transform .4s}
+.vd-design-item-list [class^=vd-design-item0] .vd-design-item-tit{position:absolute;font-size:24px;line-height:1.25;color:#000}
+.ie .vd-design-item-list .vd-design-item07 .item-inner img,.ie .vd-qled-smart .vd-smart-static .vd-static-cont img,.vd-design-item-list [class^=vd-design-item0] img,.vd-low .vd-design-item-list .vd-design-item07 .item-inner img,.vd-low .vd-qled-smart .vd-smart-static .vd-static-cont img,.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0] img,.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-box .vd-remote-back img,.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-light img,.vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge img,.vd-qled-compare .compare-product-card .compare-product-img>img{width:100%}
+.vd-design-item-list [class^=vd-design-item0]:after{content:"";position:absolute;background-position:0 0;background-repeat:no-repeat;background-size:100% 100%}
+.vd-design-item-list .vd-design-item01{margin-right:819px;padding-top:78px}
+.vd-design-item-list .vd-design-item01 .item-inner{position:relative;width:669px}
+.vd-design-item-list .vd-design-item02{margin-right:329px;padding-top:55px}
+.vd-design-item-list .vd-design-item02 .item-inner{width:334px;z-index:1}
+.vd-design-item-list .vd-design-item02 .vd-design-item-tit{top:240px;left:-163px;z-index:3}
+.vd-design-item-list .vd-design-item02:after{top:0;left:-227px;width:274px;height:274px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='368' height='368' viewBox='0 0 368 368'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='사각형_865' data-name='사각형 865' width='368' height='368' transform='translate(-0.146 -0.247)' fill='none' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='그룹_814' data-name='그룹 814' transform='translate(0.146 0.247)'%3E%3Cg id='그룹_807' data-name='그룹 807' transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath id='패스_391' data-name='패스 391' d='M.15.151v0' transform='translate(367.205 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cline id='선_201' data-name='선 201' x1='7.809' y1='366.876' transform='translate(359.546 0.16)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_392' data-name='패스 392' d='M.15.151,16.108,367.034.15.151' transform='translate(351.246 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_393' data-name='패스 393' d='M.15.151,24.62,367.04.15.151' transform='translate(342.734 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_394' data-name='패스 394' d='M.15.151l33.369,366.9L.15.151' transform='translate(333.836 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_395' data-name='패스 395' d='M.15.151l42.682,366.9L.15.151' transform='translate(324.523 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_396' data-name='패스 396' d='M.15.151l52.438,366.91L.15.151' transform='translate(314.766 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_397' data-name='패스 397' d='M.15.151,62.822,367.067.15.151' transform='translate(304.533 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_398' data-name='패스 398' d='M.15.151,73.567,367.075.15.151' transform='translate(293.788 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_399' data-name='패스 399' d='M.15.151l84.713,366.93L.15.151' transform='translate(282.491 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_400' data-name='패스 400' d='M.15.151l96.6,366.937L.15.151' transform='translate(270.6 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_401' data-name='패스 401' d='M.15.151,109.29,367.095.15.151' transform='translate(258.065 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_402' data-name='패스 402' d='M.15.151,122.521,367.1.15.151' transform='translate(244.834 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_403' data-name='패스 403' d='M.15.151,136.509,367.108.15.151' transform='translate(230.846 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_404' data-name='패스 404' d='M.15.151,151.32,367.115.15.151' transform='translate(216.035 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_405' data-name='패스 405' d='M.15.151,167.029,367.122.15.151' transform='translate(200.326 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_406' data-name='패스 406' d='M.149.151,183.72,367.128.149.151' transform='translate(183.635 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_407' data-name='패스 407' d='M.15.151,201.488,367.135.15.151' transform='translate(165.866 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_408' data-name='패스 408' d='M.15.151,220.442,367.142.15.151' transform='translate(146.912 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_409' data-name='패스 409' d='M.15.151l240.553,367L.15.151' transform='translate(126.651 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_410' data-name='패스 410' d='M.15.151,262.412,367.156.15.151' transform='translate(104.943 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_411' data-name='패스 411' d='M.15.151,285.73,367.162.15.151' transform='translate(81.624 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_412' data-name='패스 412' d='M.15.151,310.842,367.17.15.151' transform='translate(56.513 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_413' data-name='패스 413' d='M.15.151,337.963,367.176.15.151' transform='translate(29.392 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_414' data-name='패스 414' d='M.15.151h0L367.345,367.182.15.151' transform='translate(0.01 0.009)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_415' data-name='패스 415' d='M.15,27.649,367.345,365.32.15,27.649' transform='translate(0.01 1.879)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_416' data-name='패스 416' d='M.15,53.034,367.345,363.6.15,53.034' transform='translate(0.01 3.606)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_417' data-name='패스 417' d='M.15,76.538l367.195,285.47L.15,76.538' transform='translate(0.01 5.204)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_418' data-name='패스 418' d='M.15,98.364,367.345,360.531.15,98.364' transform='translate(0.01 6.689)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_419' data-name='패스 419' d='M.15,118.686l367.195,240.47L.15,118.686' transform='translate(0.01 8.071)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_420' data-name='패스 420' d='M.15,137.653,367.345,357.872.15,137.653' transform='translate(0.01 9.361)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_421' data-name='패스 421' d='M.15,155.4,367.345,356.672.15,155.4' transform='translate(0.01 10.567)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_422' data-name='패스 422' d='M.15,172.031,367.345,355.547.15,172.031' transform='translate(0.01 11.699)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_423' data-name='패스 423' d='M.15,187.659,367.345,354.491.15,187.659' transform='translate(0.01 12.761)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_424' data-name='패스 424' d='M.15,202.367,367.345,353.5.15,202.367' transform='translate(0.01 13.762)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_425' data-name='패스 425' d='M.15,216.235,367.345,352.561.15,216.235' transform='translate(0.01 14.705)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_426' data-name='패스 426' d='M.15,229.333,367.345,351.677.15,229.333' transform='translate(0.01 15.596)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_427' data-name='패스 427' d='M.15,241.724,367.345,350.841.15,241.724' transform='translate(0.01 16.438)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_428' data-name='패스 428' d='M.15,253.463,367.345,350.05.15,253.463' transform='translate(0.01 17.237)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_429' data-name='패스 429' d='M.15,264.6l367.195,84.7L.15,264.6' transform='translate(0.01 17.994)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_430' data-name='패스 430' d='M.15,275.18l367.195,73.406L.15,275.18' transform='translate(0.01 18.714)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_431' data-name='패스 431' d='M.15,285.245l367.195,62.664L.15,285.245' transform='translate(0.01 19.398)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_432' data-name='패스 432' d='M.15,294.831l367.195,52.433L.15,294.831' transform='translate(0.01 20.05)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_433' data-name='패스 433' d='M.15,303.971l367.195,42.678L.15,303.971' transform='translate(0.01 20.672)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_434' data-name='패스 434' d='M.15,312.7l367.195,33.367L.15,312.7' transform='translate(0.01 21.265)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_435' data-name='패스 435' d='M.15,321.033,367.345,345.5.15,321.033' transform='translate(0.01 21.832)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_436' data-name='패스 436' d='M.15,329.009l367.195,15.958L.15,329.009' transform='translate(0.01 22.374)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_437' data-name='패스 437' d='M.15,336.645l367.195,7.809L.15,336.645' transform='translate(0.01 22.894)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3Cpath id='패스_438' data-name='패스 438' d='M.15,343.963h0' transform='translate(0.01 23.391)' fill='none' stroke='%23b9987e' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");z-index:2}
+.vd-design-item-list .vd-design-item03{margin-right:315px;padding-top:131px}
+.vd-design-item-list .vd-design-item03 .item-inner{width:412px;z-index:1}
+.vd-design-item-list .vd-design-item03 .vd-design-item-tit{top:184px;left:-198px}
+.vd-design-item-list .vd-design-item04{margin-right:336px;padding-top:159px}
+.vd-design-item-list .vd-design-item04 .item-inner{width:363px;z-index:1}
+.vd-design-item-list .vd-design-item04 .vd-design-item-tit{top:116px;left:-198px}
+.vd-design-item-list .vd-design-item04:after{top:214px;left:-229px;width:350px;height:350px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='350' height='350' viewBox='0 0 350 350'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='사각형_866' data-name='사각형 866' width='350' height='350' transform='translate(0 0.743)' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='그룹_810' data-name='그룹 810' transform='translate(350.334 350.449) rotate(180)'%3E%3Cg id='그룹_809' data-name='그룹 809' transform='translate(0.334 -0.294)' clip-path='url(%23clip-path)'%3E%3Cpath id='패스_439' data-name='패스 439' d='M0,344.723A97.319,97.319,0,0,0,97.319,247.4' transform='translate(-0.031 -246.984)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_440' data-name='패스 440' d='M0,344.668a91.345,91.345,0,0,0,91.345-91.345' transform='translate(-0.031 -252.903)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_441' data-name='패스 441' d='M0,344.7A94.285,94.285,0,0,0,94.285,250.41' transform='translate(-0.031 -249.99)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_442' data-name='패스 442' d='M0,344.641a88.5,88.5,0,0,0,88.5-88.5' transform='translate(-0.031 -255.725)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_443' data-name='패스 443' d='M0,344.616a85.737,85.737,0,0,0,85.737-85.737' transform='translate(-0.031 -258.459)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_444' data-name='패스 444' d='M0,344.591a83.064,83.064,0,0,0,83.064-83.064' transform='translate(-0.031 -261.107)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_445' data-name='패스 445' d='M0,344.566a80.474,80.474,0,0,0,80.473-80.473' transform='translate(-0.031 -263.673)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_446' data-name='패스 446' d='M0,344.543a77.965,77.965,0,0,0,77.964-77.964' transform='translate(-0.031 -266.159)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_447' data-name='패스 447' d='M0,344.52a75.532,75.532,0,0,0,75.532-75.532' transform='translate(-0.031 -268.568)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_448' data-name='패스 448' d='M0,344.5a73.178,73.178,0,0,0,73.178-73.177' transform='translate(-0.031 -270.901)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_449' data-name='패스 449' d='M0,344.477a70.9,70.9,0,0,0,70.9-70.9' transform='translate(-0.031 -273.162)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_450' data-name='패스 450' d='M0,344.457a68.685,68.685,0,0,0,68.685-68.685' transform='translate(-0.031 -275.352)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_451' data-name='패스 451' d='M0,344.437a66.543,66.543,0,0,0,66.543-66.543' transform='translate(-0.031 -277.474)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_452' data-name='패스 452' d='M0,344.416a64.468,64.468,0,0,0,64.468-64.467' transform='translate(-0.031 -279.528)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_453' data-name='패스 453' d='M0,344.4a62.458,62.458,0,0,0,62.458-62.458' transform='translate(-0.031 -281.521)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_454' data-name='패스 454' d='M0,344.38A60.51,60.51,0,0,0,60.51,283.87' transform='translate(-0.031 -283.45)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_455' data-name='패스 455' d='M0,344.363A58.623,58.623,0,0,0,58.623,285.74' transform='translate(-0.031 -285.32)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_456' data-name='패스 456' d='M0,344.346a56.8,56.8,0,0,0,56.795-56.795' transform='translate(-0.031 -287.131)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_457' data-name='패스 457' d='M0,344.329a55.025,55.025,0,0,0,55.024-55.024' transform='translate(-0.031 -288.885)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_458' data-name='패스 458' d='M0,344.314a53.309,53.309,0,0,0,53.308-53.309' transform='translate(-0.031 -290.585)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_459' data-name='패스 459' d='M0,344.3a51.646,51.646,0,0,0,51.646-51.646' transform='translate(-0.031 -292.232)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_460' data-name='패스 460' d='M0,344.283a50.035,50.035,0,0,0,50.035-50.035' transform='translate(-0.031 -293.828)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_461' data-name='패스 461' d='M0,344.268a48.475,48.475,0,0,0,48.475-48.475' transform='translate(-0.031 -295.373)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_462' data-name='패스 462' d='M0,344.254a46.964,46.964,0,0,0,46.963-46.963' transform='translate(-0.031 -296.871)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_463' data-name='패스 463' d='M0,344.241a45.5,45.5,0,0,0,45.5-45.5' transform='translate(-0.031 -298.322)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_464' data-name='패스 464' d='M0,344.228a44.081,44.081,0,0,0,44.081-44.081' transform='translate(-0.031 -299.727)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_465' data-name='패스 465' d='M0,344.215a42.706,42.706,0,0,0,42.706-42.706' transform='translate(-0.031 -301.089)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_466' data-name='패스 466' d='M0,344.2a41.374,41.374,0,0,0,41.374-41.374' transform='translate(-0.031 -302.408)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_467' data-name='패스 467' d='M0,344.19a40.084,40.084,0,0,0,40.084-40.084' transform='translate(-0.031 -303.686)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_468' data-name='패스 468' d='M0,344.179a38.834,38.834,0,0,0,38.834-38.834' transform='translate(-0.031 -304.925)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_469' data-name='패스 469' d='M0,344.167a37.623,37.623,0,0,0,37.623-37.623' transform='translate(-0.031 -306.124)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_470' data-name='패스 470' d='M0,344.156a36.449,36.449,0,0,0,36.449-36.449' transform='translate(-0.031 -307.287)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_471' data-name='패스 471' d='M0,344.146a35.313,35.313,0,0,0,35.313-35.313' transform='translate(-0.031 -308.413)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_472' data-name='패스 472' d='M0,344.135a34.212,34.212,0,0,0,34.212-34.212' transform='translate(-0.031 -309.504)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_473' data-name='패스 473' d='M0,344.126A33.145,33.145,0,0,0,33.146,310.98' transform='translate(-0.031 -310.56)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_474' data-name='패스 474' d='M0,344.116A32.112,32.112,0,0,0,32.112,312' transform='translate(-0.031 -311.584)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_475' data-name='패스 475' d='M0,344.107A31.11,31.11,0,0,0,31.11,313' transform='translate(-0.031 -312.576)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_476' data-name='패스 476' d='M0,344.1a30.14,30.14,0,0,0,30.14-30.14' transform='translate(-0.031 -313.536)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_477' data-name='패스 477' d='M0,344.089a29.2,29.2,0,0,0,29.2-29.2' transform='translate(-0.031 -314.469)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_478' data-name='패스 478' d='M0,344.08a28.289,28.289,0,0,0,28.289-28.289' transform='translate(-0.031 -315.371)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_479' data-name='패스 479' d='M0,344.072a27.407,27.407,0,0,0,27.407-27.407' transform='translate(-0.031 -316.245)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_480' data-name='패스 480' d='M0,344.064a26.553,26.553,0,0,0,26.553-26.553' transform='translate(-0.031 -317.091)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_481' data-name='패스 481' d='M0,344.057a25.725,25.725,0,0,0,25.725-25.724' transform='translate(-0.031 -317.912)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_482' data-name='패스 482' d='M0,344.049a24.923,24.923,0,0,0,24.923-24.923' transform='translate(-0.031 -318.706)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_483' data-name='패스 483' d='M0,344.042A24.146,24.146,0,0,0,24.146,319.9' transform='translate(-0.031 -319.476)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_484' data-name='패스 484' d='M0,344.035a23.393,23.393,0,0,0,23.393-23.393' transform='translate(-0.031 -320.222)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_485' data-name='패스 485' d='M0,344.028a22.663,22.663,0,0,0,22.663-22.663' transform='translate(-0.031 -320.945)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_486' data-name='패스 486' d='M0,344.022a21.957,21.957,0,0,0,21.956-21.957' transform='translate(-0.031 -321.645)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_487' data-name='패스 487' d='M0,344.015a21.272,21.272,0,0,0,21.272-21.272' transform='translate(-0.031 -322.323)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_488' data-name='패스 488' d='M0,344.009A20.609,20.609,0,0,0,20.609,323.4' transform='translate(-0.031 -322.98)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_489' data-name='패스 489' d='M0,344a19.966,19.966,0,0,0,19.966-19.966' transform='translate(-0.031 -323.617)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_490' data-name='패스 490' d='M0,344a19.344,19.344,0,0,0,19.343-19.343' transform='translate(-0.031 -324.234)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_491' data-name='패스 491' d='M0,343.991a18.741,18.741,0,0,0,18.741-18.74' transform='translate(-0.031 -324.831)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_492' data-name='패스 492' d='M0,343.986A18.156,18.156,0,0,0,18.156,325.83' transform='translate(-0.031 -325.41)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_493' data-name='패스 493' d='M0,343.981a17.59,17.59,0,0,0,17.59-17.59' transform='translate(-0.031 -325.971)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_494' data-name='패스 494' d='M0,343.976a17.041,17.041,0,0,0,17.041-17.041' transform='translate(-0.031 -326.515)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_495' data-name='패스 495' d='M0,343.971a16.51,16.51,0,0,0,16.51-16.51' transform='translate(-0.031 -327.041)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_496' data-name='패스 496' d='M0,343.966a16,16,0,0,0,15.995-15.995' transform='translate(-0.031 -327.551)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_497' data-name='패스 497' d='M0,343.961a15.5,15.5,0,0,0,15.5-15.5' transform='translate(-0.031 -328.045)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_498' data-name='패스 498' d='M0,343.957a15.013,15.013,0,0,0,15.013-15.013' transform='translate(-0.031 -328.524)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_499' data-name='패스 499' d='M0,343.952a14.544,14.544,0,0,0,14.544-14.544' transform='translate(-0.031 -328.988)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_500' data-name='패스 500' d='M0,343.948a14.091,14.091,0,0,0,14.091-14.091' transform='translate(-0.031 -329.437)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_501' data-name='패스 501' d='M0,343.944a13.652,13.652,0,0,0,13.652-13.652' transform='translate(-0.031 -329.872)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_502' data-name='패스 502' d='M0,343.94a13.226,13.226,0,0,0,13.226-13.226' transform='translate(-0.031 -330.294)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_503' data-name='패스 503' d='M0,343.936a12.813,12.813,0,0,0,12.813-12.813' transform='translate(-0.031 -330.703)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_504' data-name='패스 504' d='M0,343.933a12.415,12.415,0,0,0,12.415-12.415' transform='translate(-0.031 -331.098)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_505' data-name='패스 505' d='M0,343.929A12.027,12.027,0,0,0,12.027,331.9' transform='translate(-0.031 -331.482)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_506' data-name='패스 506' d='M0,343.925a11.652,11.652,0,0,0,11.652-11.651' transform='translate(-0.031 -331.854)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_507' data-name='패스 507' d='M0,343.922a11.289,11.289,0,0,0,11.289-11.289' transform='translate(-0.031 -332.213)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_508' data-name='패스 508' d='M0,343.919a10.937,10.937,0,0,0,10.937-10.937' transform='translate(-0.031 -332.562)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_509' data-name='패스 509' d='M0,343.916a10.6,10.6,0,0,0,10.6-10.6' transform='translate(-0.031 -332.9)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_510' data-name='패스 510' d='M0,343.913a10.264,10.264,0,0,0,10.265-10.266' transform='translate(-0.031 -333.227)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_511' data-name='패스 511' d='M0,343.91a9.945,9.945,0,0,0,9.945-9.945' transform='translate(-0.031 -333.545)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_512' data-name='패스 512' d='M0,343.907a9.634,9.634,0,0,0,9.635-9.635' transform='translate(-0.031 -333.852)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_513' data-name='패스 513' d='M0,343.9a9.334,9.334,0,0,0,9.334-9.335' transform='translate(-0.031 -334.149)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_514' data-name='패스 514' d='M0,343.9a9.043,9.043,0,0,0,9.043-9.043' transform='translate(-0.031 -334.438)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_515' data-name='패스 515' d='M0,343.9a8.761,8.761,0,0,0,8.762-8.762' transform='translate(-0.031 -334.717)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_516' data-name='패스 516' d='M0,343.9a8.488,8.488,0,0,0,8.488-8.488' transform='translate(-0.031 -334.988)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_517' data-name='패스 517' d='M0,343.893a8.223,8.223,0,0,0,8.224-8.224' transform='translate(-0.031 -335.25)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_518' data-name='패스 518' d='M0,343.891a7.967,7.967,0,0,0,7.967-7.967' transform='translate(-0.031 -335.504)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_519' data-name='패스 519' d='M0,343.889a7.719,7.719,0,0,0,7.719-7.719' transform='translate(-0.031 -335.75)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_520' data-name='패스 520' d='M0,343.887a7.477,7.477,0,0,0,7.478-7.478' transform='translate(-0.031 -335.989)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_521' data-name='패스 521' d='M0,343.884a7.244,7.244,0,0,0,7.244-7.244' transform='translate(-0.031 -336.22)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_522' data-name='패스 522' d='M0,343.882a7.019,7.019,0,0,0,7.019-7.019' transform='translate(-0.031 -336.443)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_523' data-name='패스 523' d='M0,343.88a6.8,6.8,0,0,0,6.8-6.8' transform='translate(-0.031 -336.66)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_524' data-name='패스 524' d='M0,343.878a6.588,6.588,0,0,0,6.588-6.588' transform='translate(-0.031 -336.87)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_525' data-name='패스 525' d='M0,343.876a6.383,6.383,0,0,0,6.382-6.383' transform='translate(-0.031 -337.074)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_526' data-name='패스 526' d='M0,343.875a6.184,6.184,0,0,0,6.184-6.184' transform='translate(-0.031 -337.271)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_527' data-name='패스 527' d='M0,343.873a5.991,5.991,0,0,0,5.991-5.991' transform='translate(-0.031 -337.462)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_528' data-name='패스 528' d='M0,343.871a5.8,5.8,0,0,0,5.8-5.8' transform='translate(-0.031 -337.647)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_529' data-name='패스 529' d='M0,343.868a5.622,5.622,0,0,0,5.622-5.622' transform='translate(-0.031 -337.825)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_530' data-name='패스 530' d='M0,343.868a5.447,5.447,0,0,0,5.448-5.448' transform='translate(-0.031 -338)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_531' data-name='패스 531' d='M0,344.751a100.24,100.24,0,0,0,100.24-100.24' transform='translate(-0.031 -244.091)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_532' data-name='패스 532' d='M0,344.779A103.247,103.247,0,0,0,103.247,241.532' transform='translate(-0.031 -241.112)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_533' data-name='패스 533' d='M0,344.807A106.344,106.344,0,0,0,106.344,238.463' transform='translate(-0.031 -238.043)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_534' data-name='패스 534' d='M0,344.837A109.534,109.534,0,0,0,109.534,235.3' transform='translate(-0.031 -234.883)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_535' data-name='패스 535' d='M0,344.868A112.821,112.821,0,0,0,112.821,232.047' transform='translate(-0.031 -231.627)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_536' data-name='패스 536' d='M0,344.9A116.206,116.206,0,0,0,116.205,228.694' transform='translate(-0.031 -228.274)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_537' data-name='패스 537' d='M0,344.932A119.69,119.69,0,0,0,119.691,225.241' transform='translate(-0.031 -224.821)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_538' data-name='패스 538' d='M0,344.964A123.281,123.281,0,0,0,123.281,221.683' transform='translate(-0.031 -221.262)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_539' data-name='패스 539' d='M0,345A126.981,126.981,0,0,0,126.981,218.019' transform='translate(-0.031 -217.599)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_540' data-name='패스 540' d='M0,345.035a130.79,130.79,0,0,0,130.79-130.79' transform='translate(-0.031 -213.825)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_541' data-name='패스 541' d='M0,345.072A134.713,134.713,0,0,0,134.714,210.358' transform='translate(-0.031 -209.938)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_542' data-name='패스 542' d='M0,345.109A138.754,138.754,0,0,0,138.754,206.355' transform='translate(-0.031 -205.935)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_543' data-name='패스 543' d='M0,345.148A142.917,142.917,0,0,0,142.917,202.231' transform='translate(-0.031 -201.811)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_544' data-name='패스 544' d='M0,345.188a147.2,147.2,0,0,0,147.2-147.2' transform='translate(-0.031 -197.563)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_545' data-name='패스 545' d='M0,345.229A151.621,151.621,0,0,0,151.621,193.608' transform='translate(-0.031 -193.188)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_546' data-name='패스 546' d='M0,345.271A156.169,156.169,0,0,0,156.169,189.1' transform='translate(-0.031 -188.682)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_547' data-name='패스 547' d='M0,345.315A160.855,160.855,0,0,0,160.855,184.46' transform='translate(-0.031 -184.04)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_548' data-name='패스 548' d='M0,345.36A165.681,165.681,0,0,0,165.68,179.68' transform='translate(-0.031 -179.26)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_549' data-name='패스 549' d='M0,345.406a170.65,170.65,0,0,0,170.65-170.65' transform='translate(-0.031 -174.336)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_550' data-name='패스 550' d='M0,345.454a175.77,175.77,0,0,0,175.77-175.77' transform='translate(-0.031 -169.264)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_551' data-name='패스 551' d='M0,345.5A181.043,181.043,0,0,0,181.043,164.46' transform='translate(-0.031 -164.04)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_552' data-name='패스 552' d='M0,345.554c102.987,0,186.475-83.488,186.475-186.475' transform='translate(-0.031 -158.659)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_553' data-name='패스 553' d='M0,345.606c106.077,0,192.069-85.992,192.069-192.069' transform='translate(-0.031 -153.117)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_554' data-name='패스 554' d='M0,345.659c109.259,0,197.831-88.572,197.831-197.83' transform='translate(-0.031 -147.407)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_555' data-name='패스 555' d='M0,345.715c112.537,0,203.766-91.229,203.766-203.766' transform='translate(-0.031 -141.529)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_556' data-name='패스 556' d='M0,345.772c115.913,0,209.879-93.966,209.879-209.879' transform='translate(-0.031 -135.473)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_557' data-name='패스 557' d='M0,345.83c119.39,0,216.175-96.784,216.175-216.175' transform='translate(-0.031 -129.235)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_558' data-name='패스 558' d='M0,345.891c122.972,0,222.661-99.688,222.661-222.661' transform='translate(-0.031 -122.81)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_559' data-name='패스 559' d='M0,345.953c126.662,0,229.34-102.679,229.34-229.34' transform='translate(-0.031 -116.193)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_560' data-name='패스 560' d='M0,346.016c130.461,0,236.22-105.759,236.22-236.22' transform='translate(-0.031 -109.375)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_561' data-name='패스 561' d='M0,346.083c134.374,0,243.307-108.933,243.307-243.307' transform='translate(-0.031 -102.356)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_562' data-name='패스 562' d='M0,346.151c138.406,0,250.606-112.2,250.606-250.606' transform='translate(-0.031 -95.125)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_563' data-name='패스 563' d='M0,346.22c142.558,0,258.125-115.566,258.125-258.124' transform='translate(-0.031 -87.675)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_564' data-name='패스 564' d='M0,346.293c146.835,0,265.868-119.034,265.868-265.868' transform='translate(-0.031 -80.005)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_565' data-name='패스 565' d='M0,346.367c151.24,0,273.845-122.6,273.845-273.844' transform='translate(-0.031 -72.103)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_566' data-name='패스 566' d='M0,346.444c155.777,0,282.06-126.282,282.06-282.06' transform='translate(-0.031 -63.964)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_567' data-name='패스 567' d='M0,346.523c160.45,0,290.522-130.071,290.522-290.522' transform='translate(-0.031 -55.581)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_568' data-name='패스 568' d='M0,346.6c165.264,0,299.237-133.973,299.237-299.237' transform='translate(-0.031 -46.947)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_569' data-name='패스 569' d='M0,346.688c170.222,0,308.215-137.992,308.215-308.215' transform='translate(-0.031 -38.053)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_570' data-name='패스 570' d='M0,346.774c175.329,0,317.461-142.132,317.461-317.461' transform='translate(-0.031 -28.893)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_571' data-name='패스 571' d='M0,346.862c180.589,0,326.984-146.4,326.984-326.984' transform='translate(-0.031 -19.458)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_572' data-name='패스 572' d='M0,346.954c186.006,0,336.794-150.787,336.794-336.794' transform='translate(-0.031 -9.74)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_573' data-name='패스 573' d='M0,347.048c191.586,0,346.9-155.312,346.9-346.9' transform='translate(-0.031 0.27)' fill='none' stroke='blue' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cpath id='패스_574' data-name='패스 574' d='M5.377,338.49a5.525,5.525,0,0,1-2.015,4.2A5.146,5.146,0,0,1,0,343.867V338.49Z' transform='translate(-0.031 -338.07)' fill='blue' stroke='blue' stroke-width='0.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");z-index:0}
+.vd-design-item-list .vd-design-item05{margin-right:351px;padding-top:84px}
+.vd-design-item-list .vd-design-item05 .item-inner{width:450px;z-index:1}
+.vd-design-item-list .vd-design-item05 .vd-design-item-tit{top:85px;left:-205px}
+.vd-design-item-list .vd-design-item05:after{top:129px;left:285px;width:618px;height:332px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='832' height='446' viewBox='0 0 832 446'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='사각형_867' data-name='사각형 867' width='832' height='446' transform='translate(0.483 -0.453)' fill='none' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='그룹_811' data-name='그룹 811' transform='translate(-0.483 0.453)' clip-path='url(%23clip-path)'%3E%3Cline id='선_202' data-name='선 202' x1='832.106' y2='231.342' transform='translate(0.168 203.7)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_203' data-name='선 203' x1='832.106' y2='205.92' transform='translate(0.168 229.122)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_204' data-name='선 204' x1='832.106' y2='258.721' transform='translate(0.168 176.322)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_205' data-name='선 205' x1='832.106' y2='182.251' transform='translate(0.168 252.791)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_206' data-name='선 206' x1='832.106' y2='288.289' transform='translate(0.168 146.754)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_207' data-name='선 207' x1='832.106' y2='355.138' transform='translate(0.168 79.904)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_208' data-name='선 208' x1='832.106' y2='160.161' transform='translate(0.168 274.882)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_209' data-name='선 209' x1='832.106' y2='434.72' transform='translate(0.168 0.322)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_210' data-name='선 210' x1='832.106' y2='320.32' transform='translate(0.168 114.722)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_211' data-name='선 211' x1='832.106' y2='393.121' transform='translate(0.168 41.922)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_212' data-name='선 212' x1='832.106' y2='53.387' transform='translate(0.168 381.655)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_213' data-name='선 213' x1='832.106' y2='25.289' transform='translate(0.168 409.753)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_214' data-name='선 214' x1='832.106' y2='38.959' transform='translate(0.168 396.084)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_215' data-name='선 215' x2='832.106' transform='translate(0.168 435.042)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_216' data-name='선 216' x1='832.106' y2='12.321' transform='translate(0.168 422.722)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_217' data-name='선 217' x1='832.106' y2='101.921' transform='translate(0.168 333.122)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_218' data-name='선 218' x1='832.106' y2='120.12' transform='translate(0.168 314.922)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_219' data-name='선 219' x1='832.106' y2='139.495' transform='translate(0.168 295.548)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_220' data-name='선 220' x1='832.106' y2='84.791' transform='translate(0.168 350.251)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3Cline id='선_221' data-name='선 221' x1='832.106' y2='68.641' transform='translate(0.168 366.402)' fill='none' stroke='%23ff4337' stroke-miterlimit='10' stroke-width='0.5'/%3E%3C/g%3E%3C/svg%3E%0A");z-index:0}
+.vd-design-item-list .vd-design-item06{margin-right:328px;padding-top:104px}
+.vd-design-item-list .vd-design-item06 .item-inner{width:470px}
+.vd-design-item-list .vd-design-item06 .vd-design-item-tit{top:170px;left:-218px}
+.vd-design-item-list .vd-design-item07{padding-top:67px}
+.vd-design-item-list .vd-design-item07 .item-inner{width:1264px}
+.vd-qled-design .vd-qled-design-end{margin-top:80px;padding-bottom:200px}
+@media screen and (min-width:768px) and (max-width:1440px){
+.vd-header{padding:80px 88px 0}
+.vd-header .vd-eyebrow{font-size:22px}
+.vd-header .vd-tit{font-size:80px}
+.vd-header .vd-eyebrow+.vd-tit{margin-top:20px}
+[class*="-end"] .vd-cont-inner{padding:0 88px}
+.vd-qled-design .vd-qled-design-end{padding-bottom:200px}
+.vd-qled-quality .vd-qled-quality-end{padding:80px 0 200px}
+}
+@media screen and (min-width:768px) and (max-width:1440px) and (max-width:1440px){
+.vd-header{padding:5.556vw 6.111vw 0}
+.vd-header .vd-eyebrow{font-size:1.528vw}
+.vd-header .vd-tit{font-size:5.556vw}
+.vd-header .vd-eyebrow+.vd-tit{margin-top:1.389vw}
+[class*="-end"] .vd-cont-inner{padding:0 6.111vw}
+.vd-qled-design .vd-qled-design-end{padding-bottom:13.889vw}
+}
+@media screen and (max-width:767px){
+.vd-cta-wrap .vd-btn-link,.vd-pc-none{display:block}
+.vd-mo-none{display:none}
+.vd-qled-kv.kv-sticky-top .vd-sticky-in,.vd-sticky-in{top:77px}
+.vd-sticky-in.vd-sticky-full{height:calc(100vh - 77px)}
+.vd-cta-wrap{margin-top:11.111vw}
+.vd-cta-wrap .vd-btn-link+.vd-btn-link{margin-top:3.194vw}
+.vd-btn-link a{padding-bottom:.139vw;font-size:3.333vw}
+.vd-btn-link.vd-btn-compare a span{padding-left:5.278vw}
+.vd-btn-link.vd-btn-compare a span:after{top:auto;width:4.028vw;height:3.056vw;background-image:url("../images/ico_compare_white_mo.png")}
+.vd-btn-link.vd-btn-black a span:after{background-image:url("../images/ico_compare_black_mo.png")}
+.vd-btn-link+.vd-btn-link{margin:2.778vw 0 0}
+.vd-header{padding:13.889vw 10vw 0}
+.vd-header .vd-eyebrow{font-size:3.889vw}
+.vd-header .vd-tit{font-size:8.333vw;line-height:1.33}
+.vd-header .vd-eyebrow+.vd-tit{margin-top:2.083vw}
+[class*="-end"] .vd-cont-inner{padding:0 10vw}
+.vd-qled-smart .vd-qled-smart-story-end .vd-tit,.vd-txt-type01 .vd-desc{font-size:5.556vw;line-height:1.6}
+.vd-info-scroll{width:70px;height:70px}
+.vd-info-scroll .vd-scroll-tit{font-size:12px}
+.vd-info-scroll .vd-info-cont{width:16px;height:26px;margin-top:3px}
+.vd-info-scroll .vd-info-dot{top:5px;width:4px;height:4px}
+@-webkit-keyframes ScrollInfo{
+0%,100%{top:5px}
+50%{top:13px}
+}
+@keyframes ScrollInfo{
+0%,100%{top:5px}
+50%{top:13px}
+}
+.vd-qled-kv .vd-sticky-in{height:136.111vw}
+.vd-qled-kv .vd-txt-wrap{width:80vw;height:136.111vw}
+.vd-qled-kv .vd-txt-wrap [class^=vd-txt-box]{font-size:6.667vw}
+.vd-qled-kv .vd-txt-wrap [class^=vd-txt-box] .vd-tit{margin-bottom:9.722vw}
+.vd-qled-kv .vd-txt-wrap [class^=vd-txt-box] .vd-tit img{width:68.056vw}
+.vd-qled-smart .vd-sticky-wrap.vd-sticky-circle .vd-sticky-in{height:216.667vw;margin-bottom:0}
+.vd-qled-smart .vd-sticky-circle .vd-video-box .vd-video-cont{background-image:url("../images/img_smart_poster_mo.jpg")}
+.vd-qled-smart [class^=vd-qled-smart-story0]{height:100%}
+.vd-qled-smart [class^=vd-qled-smart-story0] .story-inner{background-position:50% 0;background-size:100% auto}
+.vd-qled-smart .vd-qled-smart-story01 .story-inner{background-image:url("../images/img_smart_screen01_mo.jpg")}
+.vd-qled-smart .vd-qled-smart-story02 .story-inner{background-image:url("../images/img_smart_screen02_mo.jpg")}
+.vd-qled-smart .vd-qled-smart-story03 .story-inner{background-image:url("../images/img_smart_screen03_mo.jpg")}
+.vd-qled-smart .vd-qled-smart-story04 .story-inner{background-image:url("../images/img_smart_screen04_mo.jpg")}
+.vd-qled-smart [class^=vd-qled-smart-story0] .vd-txt-wrap{padding-top:18.75vw}
+.vd-qled-smart [class^=vd-qled-smart-story0] .vd-txt-wrap.line-row2{padding-top:18.194vw}
+.vd-qled-smart [class^=vd-qled-smart-story0] .vd-smart-tit{font-size:7.222vw;line-height:1.34}
+.vd-qled-smart .vd-qled-smart-story-end .vd-txt-wrap{width:80vw;padding:0}
+.vd-qled-design .vd-sticky-in{height:218.75vw}
+.vd-qled-design .vd-qled-design-video .vd-video-box{left:0;width:100%;height:177.778vw;margin-left:0}
+.vd-qled-design .vd-qled-design-video .vd-video-box .vd-video-cont{background-image:url("../images/img_design_poster_mo.jpg")}
+.vd-qled-design .vd-design-scroll-outer{width:auto;height:218.75vw;padding-left:21.944vw}
+.vd-design-item-list{padding-top:31.111vw}
+.vd-design-item-list [class^=vd-design-item0]{height:156.528vw}
+.vd-design-item-list [class^=vd-design-item0] .vd-design-item-tit{font-size:4.722vw}
+.vd-design-item-list .vd-design-item01{margin-right:91.806vw;padding-top:33.194vw}
+.vd-design-item-list .vd-design-item01 .item-inner{width:138.611vw}
+.vd-design-item-list .vd-design-item02{margin-right:56.944vw;padding-top:52.361vw}
+.vd-design-item-list .vd-design-item02 .item-inner{width:80vw}
+.vd-design-item-list .vd-design-item02 .vd-design-item-tit{top:60.833vw;left:-16.806vw}
+.vd-design-item-list .vd-design-item02:after{top:0;left:-51.25vw;width:67.083vw;height:67.083vw}
+.vd-design-item-list .vd-design-item03{margin-right:54.167vw;padding-top:47.5vw}
+.vd-design-item-list .vd-design-item03 .item-inner,.vd-design-item-list .vd-design-item06 .item-inner{width:88.889vw}
+.vd-design-item-list .vd-design-item03 .vd-design-item-tit{top:35.833vw;left:-37.5vw}
+.vd-design-item-list .vd-design-item04{margin-right:58.194vw;padding-top:55.972vw}
+.vd-design-item-list .vd-design-item04 .item-inner{width:73.333vw}
+.vd-design-item-list .vd-design-item04 .vd-design-item-tit{top:27.361vw;left:-34.722vw}
+.vd-design-item-list .vd-design-item04:after{top:76.389vw;left:-41.667vw;width:65.278vw;height:65.278vw}
+.vd-design-item-list .vd-design-item05{margin-right:61.111vw;padding-top:46.111vw}
+.vd-design-item-list .vd-design-item05 .item-inner{width:107.778vw}
+.vd-design-item-list .vd-design-item05 .vd-design-item-tit{top:14.722vw;left:-38.75vw}
+.vd-design-item-list .vd-design-item05:after{top:56.667vw;left:73.75vw;width:126.528vw;height:67.778vw}
+.vd-design-item-list .vd-design-item06{margin-right:25vw;padding-top:57.222vw}
+.vd-design-item-list .vd-design-item06 .vd-design-item-tit{top:28.056vw;left:-41.667vw}
+.vd-design-item-list .vd-design-item07{padding-top:36.389vw}
+.vd-design-item-list .vd-design-item07 .item-inner{width:100vw}
+.vd-qled-design .vd-sticky-copy .vd-sticky-in{height:140.278vw}
+.vd-qled-design .vd-qled-design-end{margin-top:0;padding-top:13.889vw;padding-bottom:140px}
+}
+@media screen and (max-width:767px) and (max-width:1440px){
+.vd-qled-design .vd-qled-design-end{padding-bottom:9.722vw}
+}
+.vd-qled-quality,.vd-qled-sound{background-color:#000}
+.vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.vd-qled-quality .vd-sticky-wrap,.vd-qled-sound .vd-sticky-wrap{position:relative;height:3000px}
+.ie .vd-qled-acc .vd-qled-acc-start .vd-remote-box,.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01,.vd-low .vd-qled-acc .vd-qled-acc-start .vd-remote-box,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01,.vd-qled-quality .vd-sticky-wrap .vd-sticky-in,.vd-qled-sound .vd-sticky-in{height:1080px}
+.vd-qled-quality .vd-qled-quality-start .vd-txt-wrap.vd-header,.vd-qled-sound .vd-header,.vd-qled-sound .vd-qled-sound-video01 .vd-header{color:#fff}
+.vd-qled-quality .vd-qled-quality-start .vd-video-box .vd-video-cont{background-image:url("../images/img_quality_poster_pc.jpg")}
+.vd-qled-quality .vd-qled-quality-end{position:relative;z-index:5;padding:80px 0 200px}
+.vd-qled-sound .vd-qled-sound-video01 .vd-video-box .vd-video-cont{background-image:url("../images/img_sound_poster_pc.jpg")}
+.vd-qled-sound .vd-qled-sound-video01 .vd-video-box:after{content:"";position:absolute;bottom:0;left:0;right:0;z-index:2;width:100%;height:200px;background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0)),to(#000));background-image:-webkit-linear-gradient(top,rgba(0,0,0,0),#000);background-image:-o-linear-gradient(top,rgba(0,0,0,0),#000);background-image:linear-gradient(to bottom,rgba(0,0,0,0),#000)}
+.vd-qled-sound .vd-qled-sound-end{padding:80px 0 200px}
+.vd-qled-sound .vd-qled-sound-end .vd-txt-type01 .vd-desc strong>em{font-size:20px;color:#fff!important}
+.vd-qled-acc .vd-sticky-wrap.vd-remote{position:relative;height:5500px}
+.vd-qled-acc .vd-qled-acc-start{position:relative;width:100%;height:100%;background-color:#fff;z-index:4}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box{position:absolute;top:461px;height:100vh;width:100%;direction:ltr}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img{position:absolute;left:50%;top:0;width:420px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img img{position:absolute;top:0;left:0;width:100%}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img .remote-back-box{overflow:hidden;position:relative;z-index:5;height:494px;-webkit-transform-origin:bottom;-ms-transform-origin:bottom;transform-origin:bottom;-webkit-transform:matrix(1,0,0,0,0,0);-ms-transform:matrix(1,0,0,0,0,0);transform:matrix(1,0,0,0,0,0)}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img .remote-back-box img.original-back-img{-webkit-transform-origin:bottom;-ms-transform-origin:bottom;transform-origin:bottom}
+.vd-qled-acc [class^=vd-qled-acc-story]{position:absolute;top:0;width:100%;height:100%;background:#fff;direction:ltr}
+.vd-qled-acc [class^=vd-qled-acc-story] .vd-acc-remote-wrap{position:relative;left:50%;top:50%;max-width:1440px;width:100%;height:860px;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge{position:absolute;top:33px;left:28px;width:53px;height:191px}
+.vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge [class^=vd-charge]{display:block;margin-top:1px;font-size:0;line-height:1;opacity:0}
+.vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge [class^=vd-charge]:first-child{margin-top:0}
+.vd-qled-acc .vd-qled-acc-story01{z-index:2;background-color:transparent;direction:ltr}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-box{position:absolute;left:50%;bottom:108px;width:110px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);z-index:3}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-light{position:absolute;left:50%;top:-107px;width:728px;height:728px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);z-index:2;opacity:0}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-effect{position:absolute;left:50%;top:-107px;width:728px;height:728px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);z-index:2}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-effect img{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.vd-qled-acc .vd-acc-scroll .vd-sticky-in{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column nowrap;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-perspective:1000px;perspective:1000px;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0] .vd-acc-item-tit{position:absolute;left:0;font-size:22px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01{margin-right:120px;padding-top:150px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .item-inner{width:297px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .vd-acc-item-tit,.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .vd-acc-item-tit{top:-33px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02{margin-right:69px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .item-inner{width:506px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .vd-acc-item-tit{bottom:-33px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03{padding-top:193px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .item-inner{width:272px}
+.vd-qled-acc .vd-acc-scroll .vd-qled-acc-end{padding:73px 0 80px}
+.vd-qled-review{padding-bottom:92px}
+.vd-qled-review .vd-header{position:relative;padding-top:0}
+.vd-qled-compare .vd-header .vd-tit,.vd-qled-review .vd-header .vd-tit{font-size:60px}
+.vd-qled-compare{padding:86px 0 100px}
+.vd-qled-compare .vd-header{position:relative;padding-top:60px}
+.vd-qled-compare .vd-cta-wrap{margin-top:30px}
+.vd-qled-compare .vd-compare-wrap{margin:26px auto 0;padding:0 88px}
+.vd-qled-compare .vd-compare-cont-inner{font-family:"SamsungOne",arial,sans-serif;font-weight:400;font-size:0}
+.vd-qled-compare .vd-compare-category{display:inline-block;position:relative;z-index:10;width:24.37%;white-space:normal;vertical-align:top}
+.vd-qled-compare .vd-compare-category-list{position:relative;width:264px;margin-top:264px;background-color:#f7f7f7;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transform:translateZ(0);transform:translateZ(0);text-align:left}
+.vd-qled-compare .vd-compare-category-list:after{content:'';display:block;position:absolute;z-index:5;bottom:-1px;left:0;width:1264px;height:1px;background-color:#d5d5d5}
+.vd-qled-compare .vd-compare-category-item{position:relative;padding:16px 16px 16px 24px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.vd-qled-compare .compare-spec-list .compare-spec-item:before,.vd-qled-compare .vd-compare-category-item:before{content:'';display:inline-block;height:100%;vertical-align:middle}
+.vd-qled-compare .vd-compare-category-item:after{content:'';display:block;position:absolute;z-index:5;top:-1px;left:0;width:1264px;height:1px;background-color:#d5d5d5}
+.vd-qled-compare .vd-compare-category-text{display:inline-block;font-size:16px;font-weight:700;line-height:1.33;vertical-align:top;word-break:break-all}
+.vd-qled-compare .vd-compare-category-tooltip{display:inline-block;position:relative;width:12px;height:12px;margin-top:1px}
+.vd-qled-compare .vd-compare-tooltip-btn{overflow:hidden;display:inline-block;position:relative;width:12px;height:12px;border-radius:50%;vertical-align:top}
+.vd-qled-compare .vd-compare-tooltip-btn .icon-help{display:inline-block;width:12px;height:12px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='패스_96' data-name='패스 96' d='M15,3A12,12,0,1,1,3,15,11.984,11.984,0,0,1,15,3Zm0,2.133a9.833,9.833,0,1,0,6.987,2.88A9.878,9.878,0,0,0,15,5.133ZM15,19a1.333,1.333,0,1,1-1.333,1.333A1.333,1.333,0,0,1,15,19Zm3.36-9.227a3.871,3.871,0,0,1-.613,4.667l-.042.04-.146.128c-.035.03-.07.063-.106.1l-.181.166-.094.088-.095.092-.095.1-.094.1a2.942,2.942,0,0,0-.829,2.071v.347H13.933v-.4a5.053,5.053,0,0,1,1.277-3.377l.1-.113.1-.107.1-.1.094-.1.091-.09.088-.084.2-.187.037-.034c.027-.027.053-.05.079-.072l.106-.088.029-.027a1.7,1.7,0,0,0,.267-2.08,1.731,1.731,0,0,0-3.227.88H11.133a3.871,3.871,0,0,1,7.227-1.92Z' transform='translate(-3 -3)'/%3E%3C/svg%3E%0A");background-repeat:no-repeat;background-size:100%}
+.vd-qled-compare .vd-compare-tooltip-btn.tooltip-click .icon-help,.vd-qled-compare .vd-compare-tooltip-btn:focus .icon-help,.vd-qled-compare .vd-compare-tooltip-btn:hover .icon-help{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect id='Container' width='24' height='24' fill='%23fff' opacity='0'/%3E%3Ccircle id='타원_1' data-name='타원 1' cx='12' cy='12' r='12' transform='translate(0)'/%3E%3Cpath id='패스_96' data-name='패스 96' d='M10.887,16.451A1.317,1.317,0,1,1,9.57,17.769,1.317,1.317,0,0,1,10.887,16.451Zm3.32-9.116a3.824,3.824,0,0,1-.606,4.61l-.042.04-.144.126c-.034.03-.069.062-.1.1l-.179.164-.092.087-.094.091-.094.095-.093.1a2.907,2.907,0,0,0-.819,2.046v.342H9.833v-.4A4.992,4.992,0,0,1,11.095,11.4l.1-.111.1-.105.095-.1.093-.094.09-.089.087-.083.2-.185.036-.033c.026-.026.053-.05.078-.071l.1-.087.028-.026a1.678,1.678,0,0,0,.263-2.055,1.71,1.71,0,0,0-3.188.869H7.067a3.824,3.824,0,0,1,7.14-1.9Z' transform='translate(0.968 -0.644)' fill='%23fff'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:100%}
+.vd-qled-compare .vd-compare-tooltip-layer{display:block;visibility:hidden;position:absolute;z-index:10;top:100%;left:-14px;width:316px;width:-webkit-max-content;width:-moz-max-content;width:max-content;max-width:316px;margin-top:10px;padding:16px 52px 16px 16px;font-size:12px;background-color:#fff;border-radius:3px;border:1px solid #aeaeae;-webkit-box-shadow:5px 9px 15px 0 rgba(0,0,0,.1);box-shadow:5px 9px 15px 0 rgba(0,0,0,.1)}
+.vd-qled-compare .vd-compare-tooltip-btn.tooltip-click+.vd-compare-tooltip-layer{visibility:inherit}
+.vd-qled-compare .vd-compare-tooltip-layer:after,.vd-qled-compare .vd-compare-tooltip-layer:before{content:'';position:absolute;left:16px;bottom:100%;width:0;height:0;border:6px solid transparent}
+.vd-qled-compare .vd-compare-tooltip-layer:before{border-bottom-color:#aeaeae}
+.vd-qled-compare .vd-compare-tooltip-layer:after{margin-bottom:-1px;border-bottom-color:#fff}
+.vd-qled-compare .vd-compare-tooltip-layer .vd-compare-tooltip-close{position:absolute;top:10px;right:10px;width:12px;height:12px;margin:6px;background-image:url("data:image/svg+xml,%3Csvg id='Icon_Bold_Action_Delete' data-name='Icon / Bold / Action / Delete' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect id='Container' width='24' height='24' fill='none'/%3E%3Cpath id='Icon_Bold_Action_Delete-2' data-name='Icon / Bold / Action / Delete' d='M17,0,9.208,7.793,1.415,0,0,1.415,7.793,9.208,0,17l1.415,1.415,7.793-7.793L17,18.415,18.415,17,10.623,9.208l7.793-7.793Z' transform='translate(2.792 2.792)'/%3E%3C/svg%3E%0A");background-repeat:no-repeat;background-size:100%;vertical-align:top}
+.vd-qled-compare .vd-compare-product{display:inline-block;position:relative;width:925px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;white-space:normal;vertical-align:top}
+.vd-qled-compare .compare-product-inner:before{content:'';position:absolute;z-index:2;top:0;left:0;width:46px;height:100%;background-color:#fff}
+.vd-qled-compare .compare-product-inner:after{content:'';position:absolute;z-index:2;top:0;right:-30px;width:76px;height:100%;background-color:#fff}
+.vd-qled-compare .compare-product-list:after{content:'';display:block;clear:both}
+.vd-qled-compare .compare-product-list .compare-product-item{float:left;width:240px;outline:0}
+.vd-qled-compare .compare-product-list .compare-product-card{width:240px;height:264px;margin:0 auto;padding:44px 0 43px;text-align:center}
+.ie .vd-design-item-list,.ie .vd-ie-block,.ie .vd-qled-design .vd-design-scroll-wrap,.vd-low .vd-design-item-list,.vd-low .vd-ie-block,.vd-low .vd-qled-design .vd-design-scroll-wrap,.vd-qled-compare .compare-product-card .compare-product-link{display:block}
+.vd-qled-compare .compare-product-card .compare-product-img{width:192px;margin:0 auto}
+.vd-qled-compare .compare-product-card .compare-product-name{display:block;position:relative;padding-top:10px;color:#000;font-size:14px;font-weight:700;text-transform:unset;white-space:nowrap}
+.vd-qled-compare .compare-product-card .compare-product-name span{display:inline-block;position:relative;letter-spacing:.15em;vertical-align:top}
+.vd-qled-compare .compare-product-card .compare-product-name span:before{content:'';display:block;position:absolute;left:0;right:0;bottom:-1px;height:1px;background-color:#000}
+.vd-qled-compare .compare-product-card .compare-product-name span:after{content:'\003E';padding-left:5px}
+.vd-qled-compare .vd-compare-button button{position:absolute;top:0;left:auto;width:40px;height:40px;margin-top:100px;border-radius:50%;background-color:#fff}
+.vd-qled-compare .vd-compare-button .swiper-button-prev{left:-15px}
+.vd-qled-compare .vd-compare-button .swiper-button-next{right:-15px}
+.rtl .vd-qled-compare .vd-compare-button .swiper-button-next:after,.vd-qled-compare .swiper-button-prev:after{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+.vd-qled-compare .swiper-button-next:after,.vd-qled-compare .swiper-button-prev:after{content:'';width:40px;height:40px;background-image:url("../images/btn_compare_arw.png");background-repeat:no-repeat;background-size:100%}
+.vd-qled-compare .compare-spec-list{position:relative;width:240px;margin:0 auto}
+.vd-qled-compare .compare-spec-list .compare-spec-item{position:relative;padding:16px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;white-space:nowrap}
+.vd-qled-compare .compare-spec-text{display:inline-block;color:#363636;font-size:16px;line-height:1.33;vertical-align:top;white-space:normal;word-break:break-word}
+.vd-qled-compare .vd-compare-cta-wrap .vd-compare-btn{display:inline-block;height:40px;margin-top:24px;padding:0 24px;line-height:39px;border-radius:30px;border:1px solid #000;font-size:14px;font-family:"SamsungOne",arial,sans-serif;font-weight:700;color:#000}
+.vd-qled-compare .vd-compare-cta-wrap .vd-compare-btn:focus,.vd-qled-compare .vd-compare-cta-wrap .vd-compare-btn:hover{background-color:rgba(0,0,0,.05)}
+.rtl .vd-qled-compare .vd-compare-tooltip-layer{padding:16px 16px 16px 52px}
+.rtl .vd-qled-compare .compare-product-card .compare-product-name span:after{-webkit-transform:translateY(-50%) rotateY(180deg);transform:translateY(-50%) rotateY(180deg)}
+.rtl .vd-qled-compare .vd-compare-button .swiper-button-next{right:auto}
+.rtl .vd-qled-compare .vd-compare-button .swiper-button-prev:after{-webkit-transform:rotateY(0);transform:rotateY(0)}
+@media screen and (max-width:1440px){
+.vd-qled-compare{padding-bottom:13.889vw}
+.vd-qled-compare .vd-header{padding-top:8.333vw}
+.vd-qled-compare .vd-header .vd-tit{font-size:60px}
+.vd-qled-compare .vd-compare-wrap{margin:26px auto 0;padding:0 88px}
+.vd-qled-compare .vd-compare-category-list{width:264px;margin-top:264px}
+.vd-qled-compare .vd-compare-category-item:after,.vd-qled-compare .vd-compare-category-list:after{width:1264px}
+.vd-qled-compare .vd-compare-category-item{padding:16px 16px 16px 24px}
+.vd-qled-compare .compare-spec-text,.vd-qled-compare .vd-compare-category-text{font-size:16px}
+.vd-qled-compare .vd-compare-category-tooltip,.vd-qled-compare .vd-compare-tooltip-btn,.vd-qled-compare .vd-compare-tooltip-btn .icon-help{width:12px;height:12px}
+.vd-qled-compare .vd-compare-tooltip-layer{left:-14px;width:316px;max-width:316px;margin-top:10px;padding:16px 52px 16px 16px;font-size:12px;border-radius:3px}
+.vd-qled-compare .vd-compare-tooltip-layer:after,.vd-qled-compare .vd-compare-tooltip-layer:before{left:16px;border-width:6px}
+.vd-qled-compare .vd-compare-tooltip-layer .vd-compare-tooltip-close{top:10px;right:10px;width:12px;height:12px;margin:6px}
+.vd-qled-compare .vd-compare-product{width:925px}
+.vd-qled-compare .compare-product-inner:before{width:46px}
+.vd-qled-compare .compare-product-inner:after{right:-30px;width:76px}
+.vd-qled-compare .compare-product-list .compare-product-item{width:240px}
+.vd-qled-compare .compare-product-list .compare-product-card{width:240px;height:264px;padding:44px 0 43px}
+.vd-qled-compare .compare-product-card .compare-product-img{width:192px}
+.vd-qled-compare .compare-product-card .compare-product-name{padding-top:10px;font-size:14px}
+.vd-qled-compare .compare-product-card .compare-product-name span:after{padding-left:5px}
+.vd-qled-compare .vd-compare-button button{width:40px;height:40px;margin-top:100px}
+.vd-qled-compare .vd-compare-button .swiper-button-prev{left:-15px}
+.vd-qled-compare .vd-compare-button .swiper-button-next{right:-15px}
+.vd-qled-compare .swiper-button-next:after,.vd-qled-compare .swiper-button-prev:after{width:40px;height:40px}
+.vd-qled-compare .compare-spec-list{width:16.667vw!important}
+.vd-qled-compare .compare-spec-list .compare-spec-item{padding:16px}
+.vd-qled-compare .vd-compare-cta-wrap .vd-compare-btn{height:40px;margin-top:24px;padding:0 24px;line-height:39px;border-radius:30px;font-size:14px}
+.rtl .vd-qled-compare .vd-compare-tooltip-layer{padding:16px 16px 16px 52px}
+}
+@media screen and (max-width:1440px) and (max-width:1440px){
+.vd-qled-compare .vd-header .vd-tit{font-size:4.167vw}
+.vd-qled-compare .vd-compare-wrap{margin:1.806vw auto 0;padding:0 6.111vw}
+.vd-qled-compare .vd-compare-category-list{width:18.333vw;margin-top:18.333vw}
+.vd-qled-compare .vd-compare-category-item:after,.vd-qled-compare .vd-compare-category-list:after{width:87.778vw}
+.vd-qled-compare .vd-compare-category-item{padding:1.111vw 1.111vw 1.111vw 1.667vw}
+.vd-qled-compare .compare-spec-text,.vd-qled-compare .vd-compare-category-text{font-size:1.111vw}
+.vd-qled-compare .vd-compare-category-tooltip,.vd-qled-compare .vd-compare-tooltip-btn,.vd-qled-compare .vd-compare-tooltip-btn .icon-help{width:.833vw;height:.833vw}
+.vd-qled-compare .vd-compare-tooltip-layer{left:-.972vw;width:21.944vw;max-width:21.944vw;margin-top:.694vw;padding:1.111vw 3.611vw 1.111vw 1.111vw;font-size:.833vw;border-radius:.208vw}
+.vd-qled-compare .vd-compare-tooltip-layer:after,.vd-qled-compare .vd-compare-tooltip-layer:before{left:1.111vw;border-width:.417vw}
+.vd-qled-compare .vd-compare-tooltip-layer .vd-compare-tooltip-close{top:.694vw;right:.694vw;width:.833vw;height:.833vw;margin:.417vw}
+.vd-qled-compare .vd-compare-product{width:64.236vw}
+.vd-qled-compare .compare-product-inner:before{width:3.194vw}
+.vd-qled-compare .compare-product-inner:after{right:-2.083vw;width:5.278vw}
+.vd-qled-compare .compare-product-list .compare-product-card,.vd-qled-compare .compare-product-list .compare-product-item{width:16.667vw}
+.vd-qled-compare .compare-product-list .compare-product-card{height:18.333vw;padding:3.056vw 0 2.986vw}
+.vd-qled-compare .compare-product-card .compare-product-img{width:13.333vw}
+.vd-qled-compare .compare-product-card .compare-product-name{padding-top:.694vw;font-size:.972vw}
+.vd-qled-compare .compare-product-card .compare-product-name span:after{padding-left:.347vw}
+.vd-qled-compare .vd-compare-button button{width:2.778vw;height:2.778vw;margin-top:6.944vw}
+.vd-qled-compare .vd-compare-button .swiper-button-prev{left:-1.042vw}
+.vd-qled-compare .vd-compare-button .swiper-button-next{right:-1.042vw}
+.vd-qled-compare .swiper-button-next:after,.vd-qled-compare .swiper-button-prev:after{width:2.778vw;height:2.778vw}
+.vd-qled-compare .compare-spec-list .compare-spec-item{padding:1.111vw}
+.vd-qled-compare .vd-compare-cta-wrap .vd-compare-btn{height:2.778vw;margin-top:1.667vw;padding:0 1.667vw;line-height:2.708vw;border-radius:2.083vw;font-size:.972vw}
+.rtl .vd-qled-compare .vd-compare-tooltip-layer{padding:1.111vw 1.111vw 1.111vw 3.611vw}
+}
+.ie .vd-sticky-in,.vd-low .vd-sticky-in{position:relative;top:0}
+.ie .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.ie .vd-qled-acc .vd-sticky-wrap.vd-remote,.ie .vd-qled-design .vd-sticky-in,.ie .vd-qled-design .vd-sticky-wrap,.ie .vd-qled-design .vd-sticky-wrap.vd-sticky-copy,.ie .vd-qled-quality .vd-sticky-wrap,.ie .vd-qled-quality .vd-sticky-wrap.vd-sticky-copy,.ie .vd-qled-quality .vd-sticky-wrap.vd-sticky-copy .vd-sticky-in,.ie .vd-qled-sound .vd-sticky-wrap,.ie .vd-qled-sound .vd-sticky-wrap.vd-sticky-copy,.ie .vd-qled-sound .vd-sticky-wrap.vd-sticky-copy .vd-sticky-in,.ie .vd-sticky-in.vd-sticky-full,.vd-low .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.vd-low .vd-qled-acc .vd-sticky-wrap.vd-remote,.vd-low .vd-qled-design .vd-sticky-in,.vd-low .vd-qled-design .vd-sticky-wrap,.vd-low .vd-qled-design .vd-sticky-wrap.vd-sticky-copy,.vd-low .vd-qled-quality .vd-sticky-wrap,.vd-low .vd-qled-quality .vd-sticky-wrap.vd-sticky-copy,.vd-low .vd-qled-quality .vd-sticky-wrap.vd-sticky-copy .vd-sticky-in,.vd-low .vd-qled-sound .vd-sticky-wrap,.vd-low .vd-qled-sound .vd-sticky-wrap.vd-sticky-copy,.vd-low .vd-qled-sound .vd-sticky-wrap.vd-sticky-copy .vd-sticky-in,.vd-low .vd-sticky-in.vd-sticky-full{height:auto}
+.ie .vd-video-box,.vd-low .vd-video-box{position:absolute;top:0;left:50%;width:1920px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+.ie .vd-video-box .vd-video-cont,.vd-low .vd-video-box .vd-video-cont{-o-object-fit:none;object-fit:none;border-style:none!important}
+.ie .vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge [class^=vd-charge],.ie .vd-qled-smart .vd-ie-block .vd-qled-smart-story-end,.ie .vd-txt-type01 .vd-desc span,.vd-low .vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge [class^=vd-charge],.vd-low .vd-qled-smart .vd-ie-block .vd-qled-smart-story-end,.vd-low .vd-txt-type01 .vd-desc span{opacity:1}
+.ie .vd-qled-kv .vd-sticky-in,.ie .vd-qled-kv.kv-sticky-top .vd-sticky-in,.vd-low .vd-qled-kv .vd-sticky-in,.vd-low .vd-qled-kv.kv-sticky-top .vd-sticky-in{top:0}
+.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle{height:1030px}
+.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle .vd-sticky-in,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle .vd-sticky-in{margin-bottom:0}
+.ie .vd-qled-smart .vd-smart-static .vd-static-cont,.vd-low .vd-qled-smart .vd-smart-static .vd-static-cont{max-width:803px;width:100%;margin:340px auto 0}
+.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02,.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03,.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04{height:1080px;margin-top:0}
+.ie .vd-qled-smart [class^=vd-qled-smart-story0] .story-inner,.vd-low .vd-qled-smart [class^=vd-qled-smart-story0] .story-inner{max-width:1920px;width:100%;height:1080px}
+.ie .vd-qled-smart .vd-ie-block .vd-qled-smart-story-end .vd-txt-wrap,.vd-low .vd-qled-smart .vd-ie-block .vd-qled-smart-story-end .vd-txt-wrap{position:absolute;display:inline-block;top:50%;left:50%;height:auto;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);opacity:1}
+.ie .vd-qled-design .vd-qled-design-video,.vd-low .vd-qled-design .vd-qled-design-video{max-width:1920px;height:860px}
+.ie .vd-qled-design .vd-qled-design-video .vd-video-box,.vd-low .vd-qled-design .vd-qled-design-video .vd-video-box{width:1920px;height:860px;-webkit-transform:none;-ms-transform:none;transform:none}
+.ie .vd-qled-design .vd-design-scroll-outer,.vd-low .vd-qled-design .vd-design-scroll-outer{max-width:1264px;width:100%;height:3304px}
+.ie .vd-design-item-list [class^=vd-design-item0],.vd-low .vd-design-item-list [class^=vd-design-item0]{position:absolute;height:auto;margin:0}
+.ie .vd-design-item-list [class^=vd-design-item0] .vd-design-item-tit,.vd-low .vd-design-item-list [class^=vd-design-item0] .vd-design-item-tit{display:inline-block;position:static;margin-top:5px}
+.ie .vd-design-item-list .vd-design-item01,.vd-low .vd-design-item-list .vd-design-item01{position:static}
+.ie .vd-design-item-list .vd-design-item01 .item-inner,.vd-low .vd-design-item-list .vd-design-item01 .item-inner{margin:0 auto}
+.ie .vd-design-item-list .vd-design-item02,.vd-low .vd-design-item-list .vd-design-item02{padding-top:0;top:1035px;left:278px}
+.ie .vd-design-item-list .vd-design-item02:after,.vd-low .vd-design-item-list .vd-design-item02:after{top:-97px;left:-230px;background-image:url("../images/img_design_pattern01.png")}
+.ie .vd-design-item-list .vd-design-item03,.vd-low .vd-design-item-list .vd-design-item03{padding-top:0;top:1248px;right:245px}
+.ie .vd-design-item-list .vd-design-item03 .item-inner,.vd-low .vd-design-item-list .vd-design-item03 .item-inner{width:367px}
+.ie .vd-design-item-list .vd-design-item03:after,.vd-low .vd-design-item-list .vd-design-item03:after{top:160px;left:236px;width:325px;height:325px;background-image:url("../images/img_design_pattern02.png")}
+.ie .vd-design-item-list .vd-design-item04,.vd-low .vd-design-item-list .vd-design-item04{padding-top:0;top:1711px;left:183px}
+.ie .vd-design-item-list .vd-design-item04 .item-inner,.vd-low .vd-design-item-list .vd-design-item04 .item-inner{width:449px}
+.ie .vd-design-item-list .vd-design-item04:after,.vd-low .vd-design-item-list .vd-design-item04:after{top:390px;left:9px;width:421px;height:226px;background-image:url("../images/img_design_pattern03_pc.png")}
+.ie .vd-design-item-list .vd-design-item05,.vd-low .vd-design-item-list .vd-design-item05{padding-top:0;top:1650px;right:324px}
+.ie .vd-design-item-list .vd-design-item05 .item-inner,.vd-low .vd-design-item-list .vd-design-item05 .item-inner{width:253px}
+.ie .vd-design-item-list .vd-design-item06,.vd-low .vd-design-item-list .vd-design-item06{padding-top:0;top:2075px;right:341px}
+.ie .vd-design-item-list .vd-design-item06 .item-inner,.vd-low .vd-design-item-list .vd-design-item06 .item-inner{width:359px}
+.ie .vd-design-item-list .vd-design-item07,.vd-low .vd-design-item-list .vd-design-item07{padding-top:0;margin:0 auto;top:2536px}
+.ie .vd-design-item-list .vd-design-item07 .item-inner,.vd-low .vd-design-item-list .vd-design-item07 .item-inner{max-width:1264px;width:100%}
+@media screen and (min-width:1024px) and (max-width:1264px){
+.ie .vd-design-item-list .vd-design-item02,.ie .vd-design-item-list .vd-design-item04,.vd-low .vd-design-item-list .vd-design-item02,.vd-low .vd-design-item-list .vd-design-item04{left:100px}
+.ie .vd-design-item-list .vd-design-item03,.ie .vd-design-item-list .vd-design-item05,.ie .vd-design-item-list .vd-design-item06,.vd-low .vd-design-item-list .vd-design-item03,.vd-low .vd-design-item-list .vd-design-item05,.vd-low .vd-design-item-list .vd-design-item06{right:100px}
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+.vd-qled-compare{padding-top:121px}
+.ie .vd-design-item-list .vd-design-item02,.ie .vd-design-item-list .vd-design-item04,.vd-low .vd-design-item-list .vd-design-item02,.vd-low .vd-design-item-list .vd-design-item04{left:50px}
+.ie .vd-design-item-list .vd-design-item03,.ie .vd-design-item-list .vd-design-item05,.ie .vd-design-item-list .vd-design-item06,.vd-low .vd-design-item-list .vd-design-item03,.vd-low .vd-design-item-list .vd-design-item05,.vd-low .vd-design-item-list .vd-design-item06{right:50px}
+}
+.ie .vd-qled-acc .vd-qled-acc-start,.ie .vd-qled-acc .vd-qled-acc-story01,.vd-low .vd-qled-acc .vd-qled-acc-start,.vd-low .vd-qled-acc .vd-qled-acc-story01{overflow:hidden;height:1080px}
+.ie .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.vd-low .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{overflow:hidden;height:900px}
+.ie .vd-qled-acc .vd-qled-acc-story01 .vd-remote-box,.vd-low .vd-qled-acc .vd-qled-acc-story01 .vd-remote-box{bottom:0}
+.ie .vd-qled-acc .vd-qled-acc-story01 .vd-remote-light,.vd-low .vd-qled-acc .vd-qled-acc-story01 .vd-remote-light{top:0;opacity:1}
+@media screen and (min-width:768px) and (max-width:1440px){
+.vd-qled-sound .vd-qled-sound-end{padding:80px 0 200px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0] .vd-acc-item-tit{font-size:22px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01{margin-right:120px;padding-top:150px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .item-inner{width:297px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .vd-acc-item-tit,.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .vd-acc-item-tit{top:-33px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02{margin-right:69px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .item-inner{width:506px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .vd-acc-item-tit{bottom:-33px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03{padding-top:193px}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .item-inner{width:272px}
+.vd-qled-acc .vd-acc-scroll .vd-qled-acc-end{padding:73px 0 200px}
+.vd-qled-review{padding-bottom:92px}
+.vd-qled-review .vd-header .vd-tit{font-size:60px}
+.ie .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.vd-low .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{height:950px}
+}
+@media screen and (min-width:768px) and (max-width:1440px) and (max-width:1440px){
+.vd-qled-quality .vd-qled-quality-end,.vd-qled-sound .vd-qled-sound-end{padding:5.556vw 0 13.889vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0] .vd-acc-item-tit{font-size:1.528vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01{margin-right:8.333vw;padding-top:10.417vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .item-inner{width:20.625vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .vd-acc-item-tit,.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .vd-acc-item-tit{top:-2.292vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02{margin-right:4.792vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .item-inner{width:35.139vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .vd-acc-item-tit{bottom:-2.292vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03{padding-top:13.403vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .item-inner{width:18.889vw}
+.vd-qled-acc .vd-acc-scroll .vd-qled-acc-end{padding:5.069vw 0 13.889vw}
+.vd-qled-review{padding-bottom:6.389vw}
+.vd-qled-review .vd-header .vd-tit{font-size:4.167vw}
+.ie .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.vd-low .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{height:65.972vw}
+}
+@media screen and (max-width:767px){
+.ie .vd-qled-acc .vd-qled-acc-start,.vd-low .vd-qled-acc .vd-qled-acc-start,.vd-qled-quality .vd-sticky-wrap .vd-sticky-in,.vd-qled-sound .vd-sticky-in{height:216.667vw}
+.vd-qled-quality .vd-qled-quality-start .vd-video-box .vd-video-cont{background-image:url("../images/img_quality_poster_mo.jpg")}
+.vd-qled-quality .vd-sticky-copy .vd-sticky-in{height:170.833vw}
+.vd-qled-quality .vd-qled-quality-end,.vd-qled-sound .vd-qled-sound-end{padding:13.889vw 0 19.444vw}
+.vd-qled-sound .vd-qled-sound-video01 .vd-video-box .vd-video-cont{background-image:url("../images/img_sound_poster_mo.jpg")}
+.vd-qled-sound .vd-qled-sound-end .vd-txt-type01 .vd-desc strong>em{font-size:2.778vw}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box{top:80.556vw;height:100%}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img{width:66.944vw}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img .remote-back-box{width:105px;height:472px}
+.vd-qled-acc .vd-qled-acc-start .vd-remote-box .vd-remote-img .remote-back-box img{height:100%}
+.vd-qled-acc [class^=vd-qled-acc-story] .vd-acc-remote-wrap{height:780px}
+.vd-qled-acc [class^=vd-qled-acc-story] .vd-remote-charge{top:31px;left:27px;width:51px;height:183px}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-box{bottom:129px;width:105px;height:472px}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-light{top:0;width:302px;height:302px}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-effect{top:0;width:303px;height:303px}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-effect .light-effect01{width:176px;height:176px}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-effect .light-effect02{width:237px;height:237px}
+.vd-qled-acc .vd-qled-acc-story01 .vd-acc-remote-wrap .vd-remote-effect .light-effect03{width:303px;height:303px}
+.vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{height:5400px}
+.vd-qled-acc .vd-acc-scroll .vd-sticky-in{height:181.944vw;-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;padding-top:8.75vw;padding-left:22.222vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list [class^=vd-acc-item0] .vd-acc-item-tit{font-size:4.722vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01{margin-right:15.833vw;padding-top:15.556vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .item-inner{width:66.25vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .vd-acc-item-tit,.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .vd-acc-item-tit{top:-6.111vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02{margin-right:5.278vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .item-inner{width:85.556vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .vd-acc-item-tit{bottom:-6.111vw}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03{padding:17.083vw 4.444vw 0}
+.vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .item-inner{width:91.111vw}
+.vd-qled-acc .vd-acc-scroll .vd-qled-acc-end{position:absolute;top:112.5vw;left:0;padding:0 0 19.444vw}
+.vd-qled-review{padding-bottom:16.667vw}
+.vd-qled-compare .vd-header .vd-tit,.vd-qled-review .vd-header .vd-tit{font-size:7.222vw}
+.vd-qled-compare{padding-top:77px;padding-bottom:4.167vw}
+.vd-qled-compare .vd-header{padding-top:8.333vw}
+.vd-qled-compare .vd-cta-wrap{margin-top:4.167vw}
+.vd-qled-compare .swiper-button-next:after,.vd-qled-compare .swiper-button-prev:after,.vd-qled-compare .vd-compare-button button{width:5.556vw;height:5.556vw}
+.vd-qled-compare .vd-compare-button .swiper-button-next{right:-4.167vw}
+.vd-qled-compare .vd-compare-button .swiper-button-prev{left:-4.167vw}
+.vd-qled-compare .vd-compare-wrap{margin:3.611vw auto 0;padding:0}
+.vd-qled-compare .vd-compare-category{width:30.833%}
+.vd-qled-compare .vd-compare-category-list{width:30.833vw;margin-top:36.667vw}
+.ie .vd-design-item-list .vd-design-item07 .item-inner,.vd-low .vd-design-item-list .vd-design-item07 .item-inner,.vd-qled-compare .vd-compare-category-item:after,.vd-qled-compare .vd-compare-category-list:after{width:100vw}
+.vd-qled-compare .vd-compare-category-item{padding:2.222vw 3.611vw 2.222vw 4.444vw}
+.vd-qled-compare .vd-compare-category-item:last-child .vd-compare-tooltip-layer{top:auto;bottom:100%;margin-top:0;margin-bottom:2.083vw}
+.vd-qled-compare .vd-compare-category-item:last-child .vd-compare-tooltip-layer:before{top:100%;bottom:auto;border-top-color:#aeaeae;border-bottom-color:transparent}
+.vd-qled-compare .vd-compare-category-item:last-child .vd-compare-tooltip-layer:after{top:100%;bottom:auto;margin-top:-1px;margin-bottom:auto;border-top-color:#fff;border-bottom-color:transparent}
+.vd-qled-compare .compare-spec-text,.vd-qled-compare .vd-compare-category-text{font-size:3.056vw}
+.vd-qled-compare .vd-compare-category-tooltip,.vd-qled-compare .vd-compare-tooltip-btn,.vd-qled-compare .vd-compare-tooltip-btn .icon-help{width:3.333vw;height:3.333vw}
+.vd-qled-compare .vd-compare-tooltip-layer{left:-1.944vw;width:74.444vw;max-width:536px;max-width:74.444vw;margin-top:2.083vw;padding:4.444vw 14.444vw 5.417vw 4.444vw;font-size:3.333vw;border-radius:.417vw}
+.vd-qled-compare .vd-compare-tooltip-layer .vd-compare-tooltip-close{top:2.778vw;right:2.778vw;width:3.333vw;height:3.333vw;margin:1.667vw}
+.vd-qled-compare .vd-compare-tooltip-layer:after,.vd-qled-compare .vd-compare-tooltip-layer:before{left:1.806vw;border-width:1.667vw}
+.vd-qled-compare .vd-compare-product{width:63.888%}
+.vd-qled-compare .compare-product-inner:after,.vd-qled-compare .compare-product-inner:before{content:none}
+.vd-qled-compare .compare-product-list .compare-product-item{float:none;width:31.944vw}
+.vd-qled-compare .compare-product-list .compare-product-card{width:31.944vw;height:36.667vw;padding:2.917vw 0 6.111vw}
+.vd-qled-compare .compare-product-card .compare-product-img{width:29.167vw}
+.vd-qled-compare .compare-product-card .compare-product-name{padding-top:1.389vw;font-size:3.333vw}
+.vd-qled-compare .compare-product-card .compare-product-name span:after{padding-left:.694vw}
+.vd-qled-compare .vd-compare-button button{margin-top:10.139vw}
+.vd-qled-compare .compare-spec-list{width:auto!important}
+.vd-qled-compare .compare-spec-list .compare-spec-item{padding:2.222vw}
+.vd-qled-compare .vd-compare-cta-wrap .vd-compare-btn{height:7.222vw;margin-top:2.5vw;padding:0 2.778vw;line-height:7.222vw;border-radius:4.167vw;font-size:2.778vw}
+.rtl .vd-qled-compare .vd-compare-tooltip-layer{padding:4.444vw 4.444vw 5.417vw 14.444vw}
+.rtl .vd-qled-compare .vd-compare-tooltip-layer .vd-compare-tooltip-close{right:auto}
+.ie .vd-qled-kv.kv-sticky-top .vd-sticky-in,.vd-low .vd-qled-kv.kv-sticky-top .vd-sticky-in{top:0}
+.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle{height:150vw}
+.ie .vd-qled-smart .vd-smart-static .vd-static-cont,.vd-low .vd-qled-smart .vd-smart-static .vd-static-cont{max-width:654px;max-width:90.833vw;margin-top:55.556vw}
+.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01,.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02,.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03,.ie .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04,.ie .vd-qled-smart [class^=vd-qled-smart-story0],.ie .vd-qled-smart [class^=vd-qled-smart-story0] .story-inner,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03,.vd-low .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04,.vd-low .vd-qled-smart [class^=vd-qled-smart-story0],.vd-low .vd-qled-smart [class^=vd-qled-smart-story0] .story-inner{height:205.833vw}
+.ie .vd-qled-design .vd-qled-design-video,.vd-low .vd-qled-design .vd-qled-design-video{height:177.778vw}
+.ie .vd-qled-design .vd-qled-design-video .vd-video-box,.vd-low .vd-qled-design .vd-qled-design-video .vd-video-box{width:100%;height:177.778vw;-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+.ie .vd-qled-design .vd-qled-design-video .vd-video-box .vd-video-cont,.vd-low .vd-qled-design .vd-qled-design-video .vd-video-box .vd-video-cont{width:100%;height:177.778vw}
+.ie .vd-qled-design .vd-design-scroll-outer,.vd-low .vd-qled-design .vd-design-scroll-outer{max-width:720px;max-width:100vw;height:557.361vw;padding-left:0}
+.ie .vd-design-item-list,.vd-low .vd-design-item-list{width:100%;padding-left:0}
+.ie .vd-design-item-list [class^=vd-design-item0],.ie .vd-qled-acc .vd-acc-scroll .vd-sticky-in,.ie .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,.vd-low .vd-design-item-list [class^=vd-design-item0],.vd-low .vd-qled-acc .vd-acc-scroll .vd-sticky-in,.vd-low .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{height:auto}
+.ie .vd-design-item-list [class^=vd-design-item0] .vd-design-item-tit,.vd-low .vd-design-item-list [class^=vd-design-item0] .vd-design-item-tit{position:absolute;font-size:3.333vw}
+.ie .vd-design-item-list .vd-design-item01 .item-inner,.vd-low .vd-design-item-list .vd-design-item01 .item-inner{width:138.611vw;padding-left:21.944vw}
+.ie .vd-design-item-list .vd-design-item02,.vd-low .vd-design-item-list .vd-design-item02{left:0;top:185.694vw}
+.ie .vd-design-item-list .vd-design-item02 .item-inner,.vd-low .vd-design-item-list .vd-design-item02 .item-inner{width:46.389vw}
+.ie .vd-design-item-list .vd-design-item02 .vd-design-item-tit,.vd-low .vd-design-item-list .vd-design-item02 .vd-design-item-tit{right:0;left:auto;top:-6.25vw}
+.ie .vd-design-item-list .vd-design-item02:after,.vd-low .vd-design-item-list .vd-design-item02:after{top:50.417vw;left:0;width:31.944vw;height:31.944vw}
+.ie .vd-design-item-list .vd-design-item03,.vd-low .vd-design-item-list .vd-design-item03{top:220.972vw;right:0}
+.ie .vd-design-item-list .vd-design-item03 .item-inner,.vd-low .vd-design-item-list .vd-design-item03 .item-inner{width:47.222vw}
+.ie .vd-design-item-list .vd-design-item03 .vd-design-item-tit,.vd-low .vd-design-item-list .vd-design-item03 .vd-design-item-tit{left:0;top:-6.25vw}
+.ie .vd-design-item-list .vd-design-item03:after,.vd-low .vd-design-item-list .vd-design-item03:after{display:none}
+.ie .vd-design-item-list .vd-design-item04,.vd-low .vd-design-item-list .vd-design-item04{top:301.111vw;left:46.389vw}
+.ie .vd-design-item-list .vd-design-item04 .item-inner,.vd-low .vd-design-item-list .vd-design-item04 .item-inner{width:62.361vw}
+.ie .vd-design-item-list .vd-design-item04 .vd-design-item-tit,.ie .vd-design-item-list .vd-design-item05 .vd-design-item-tit,.ie .vd-design-item-list .vd-design-item06 .vd-design-item-tit,.vd-low .vd-design-item-list .vd-design-item04 .vd-design-item-tit,.vd-low .vd-design-item-list .vd-design-item05 .vd-design-item-tit,.vd-low .vd-design-item-list .vd-design-item06 .vd-design-item-tit{left:0;top:-10.417vw}
+.ie .vd-design-item-list .vd-design-item04:after,.vd-low .vd-design-item-list .vd-design-item04:after{top:-30.139vw;left:32.639vw;width:36.111vw;height:36.111vw;background-image:url("../images/img_design_pattern02.png")}
+.ie .vd-design-item-list .vd-design-item05,.vd-low .vd-design-item-list .vd-design-item05{top:281.25vw;right:58.889vw}
+.ie .vd-design-item-list .vd-design-item05 .item-inner,.vd-low .vd-design-item-list .vd-design-item05 .item-inner{width:34.444vw}
+.ie .vd-design-item-list .vd-design-item06,.vd-low .vd-design-item-list .vd-design-item06{top:370.972vw;right:38.333vw;z-index:2}
+.ie .vd-design-item-list .vd-design-item06 .item-inner,.vd-low .vd-design-item-list .vd-design-item06 .item-inner{width:55vw}
+.ie .vd-design-item-list .vd-design-item07,.vd-low .vd-design-item-list .vd-design-item07{top:437.917vw}
+.ie .vd-design-item-list .vd-design-item07:after,.vd-low .vd-design-item-list .vd-design-item07:after{top:-72.083vw;left:0;width:137.083vw;height:73.75vw;background-image:url("../images/img_design_pattern03_mo.png");z-index:0}
+.ie .vd-qled-acc .vd-qled-acc-story01,.vd-low .vd-qled-acc .vd-qled-acc-story01{margin-top:100px;height:780px}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list{display:block;padding-left:0}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01{margin:0}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .vd-acc-item-tit,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item01 .vd-acc-item-tit{padding-left:10vw}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02{margin:9.167vw 0 0;padding-left:17.222vw}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .item-inner,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .item-inner{width:82.778vw}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .vd-acc-item-tit,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item02 .vd-acc-item-tit{right:0;text-align:right;padding-right:10vw}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03{margin-top:29.583vw;padding:0 10vw}
+.ie .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .item-inner,.vd-low .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list .vd-acc-item03 .item-inner{width:80vw}
+.ie .vd-qled-acc .vd-acc-scroll .vd-qled-acc-end,.vd-low .vd-qled-acc .vd-acc-scroll .vd-qled-acc-end{position:static;padding-top:10vw}
+}
+.ie .vd-qled-compare .vd-compare-tooltip-btn .icon-help,.vd-low .vd-qled-compare .vd-compare-tooltip-btn .icon-help{background-image:url("../images/ico_compare_tooltip.png")}
+.ie .vd-qled-compare .vd-compare-tooltip-btn.tooltip-click .icon-help,.ie .vd-qled-compare .vd-compare-tooltip-btn:focus .icon-help,.ie .vd-qled-compare .vd-compare-tooltip-btn:hover .icon-help,.vd-low .vd-qled-compare .vd-compare-tooltip-btn.tooltip-click .icon-help,.vd-low .vd-qled-compare .vd-compare-tooltip-btn:focus .icon-help,.vd-low .vd-qled-compare .vd-compare-tooltip-btn:hover .icon-help{border-radius:50%;background-color:#000;background-image:url("../images/ico_compare_tooltip_on.png")}
