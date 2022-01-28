@@ -1,0 +1,227 @@
+@import './scss_global/scss-common';
+
+.ie, .vd-low {
+  .vd-ie-block{display:block}
+  .vd-ie-none{display:none}
+
+  .vd-sticky-in{position:relative;top:0px;}
+  .vd-sticky-in.vd-sticky-full{height:auto;}
+  .vd-video-box .vd-video-cont{object-fit:none;border-style:none !important;}
+
+  .vd-video-box{position:absolute;top:0;left:50%;width:1920px;transform:translateX(-50%)}
+  .vd-video-box .vd-video-cont{object-fit:none;border-style:none !important;}
+
+  .vd-txt-type01 .vd-desc span{opacity:1;}
+
+  /* kv */
+  .vd-qled-kv .vd-sticky-in{top:0;}
+  .vd-qled-kv.kv-sticky-top .vd-sticky-in{top:0}
+
+
+  @media screen and (max-width:767px){
+    /* kv */
+    .vd-qled-kv.kv-sticky-top .vd-sticky-in{top:0}
+  }
+
+  /* smart tv */
+  .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle{height:1030px}
+  .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle .vd-sticky-in{margin-bottom:0}
+
+  .vd-qled-smart .vd-video-box{display:none}
+  .vd-qled-smart .vd-smart-static .vd-static-cont{max-width:803px;width:100%;margin:340px auto 0}
+  .vd-qled-smart .vd-smart-static .vd-static-cont img{width:100%}
+
+  .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01{height:1080px;}
+  .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02{height:1080px;margin-top:0}
+  .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03{height:1080px;margin-top:0}
+  .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04{height:1080px;margin-top:0}
+
+  .vd-qled-smart [class^="vd-qled-smart-story0"] .story-inner{max-width:1920px;width:100%;height:1080px;}
+
+  .vd-qled-smart .vd-ie-block .vd-qled-smart-story-end{
+    opacity:1;
+    .vd-txt-wrap{position:absolute;display:inline-block;top:50%;left:50%;height:auto;transform:translate(-50%,-50%);opacity:1;}
+  }
+
+
+  @media screen and (max-width:767px){
+    /* smart tv */
+    .vd-qled-smart .vd-sticky-wrap.vd-sticky-circle{@include vw-mo(height,1080)}
+    .vd-qled-smart .vd-smart-static .vd-static-cont{@include vw-mo(max-width,654);@include vw-mo(margin-top,400)}
+    .vd-qled-smart [class^="vd-qled-smart-story0"]{@include vw-mo(height,1482);}
+    .vd-qled-smart [class^="vd-qled-smart-story0"] .story-inner{@include vw-mo(height,1482);}
+
+    .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart01{@include vw-mo(height,1482);}
+    .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart02{@include vw-mo(height,1482);}
+    .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart03{@include vw-mo(height,1482);}
+    .vd-qled-smart .vd-sticky-wrap.vd-sticky-smart04{@include vw-mo(height,1482);}
+
+  }
+
+  .vd-qled-quality .vd-sticky-wrap,
+  .vd-qled-quality .vd-sticky-wrap.vd-sticky-copy,
+  .vd-qled-quality .vd-sticky-wrap.vd-sticky-copy .vd-sticky-in,
+  .vd-qled-sound .vd-sticky-wrap,
+  .vd-qled-sound .vd-sticky-wrap.vd-sticky-copy,
+  .vd-qled-sound .vd-sticky-wrap.vd-sticky-copy .vd-sticky-in,
+  .vd-qled-design .vd-sticky-wrap,
+  .vd-qled-design .vd-sticky-in,
+  .vd-qled-design .vd-sticky-wrap.vd-sticky-copy,
+  .vd-qled-acc .vd-sticky-wrap.vd-remote,
+  .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{height:auto}
+
+  /* design */
+  .vd-qled-design .vd-qled-design-video{max-width:1920px;height:860px;}
+  .vd-qled-design .vd-qled-design-video .vd-video-box{width:1920px;height:860px;transform:none}
+
+  .vd-qled-design .vd-design-scroll-wrap{display:block}
+  .vd-qled-design .vd-design-scroll-outer{max-width:1264px;width:100%;height:3304px;}
+  .vd-design-item-list{
+    display:block;
+    [class^="vd-design-item0"]{position:absolute;height:auto;margin:0}
+    [class^="vd-design-item0"] .vd-design-item-tit{display:inline-block;position:static;margin-top:5px}
+
+    .vd-design-item01{position:static}
+    .vd-design-item01 .item-inner{margin:0 auto;}
+
+    .vd-design-item02{padding-top:0;top:1035px;left:278px}
+    .vd-design-item02:after{top:-97px;left:-230px;background-image: url("../images/img_design_pattern01.png");}
+
+    .vd-design-item03{padding-top:0;top:1248px;right:245px;}
+    .vd-design-item03 .item-inner{width:367px}
+    .vd-design-item03:after{top:160px;left:236px;width:325px;height:325px;background-image: url("../images/img_design_pattern02.png");}
+
+    .vd-design-item04{padding-top:0;top:1711px;left:183px;}
+    .vd-design-item04 .item-inner{width:449px}
+    .vd-design-item04:after{top:390px;left:9px;width:421px;height:226px;background-image: url("../images/img_design_pattern03_pc.png");}
+
+    .vd-design-item05{padding-top:0;top:1650px;right:324px}
+    .vd-design-item05 .item-inner{width:253px}
+    .vd-design-item05:after{display:none}
+
+    .vd-design-item06{padding-top:0;top:2075px;right:341px}
+    .vd-design-item06 .item-inner{width:359px}
+
+    .vd-design-item07{padding-top:0;margin:0 auto;top:2536px;}
+    .vd-design-item07 .item-inner{max-width:1264px;width:100%}
+    .vd-design-item07 .item-inner img{width:100%}
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1264px){
+
+    .vd-design-item-list{
+      .vd-design-item02{left:100px}
+
+      .vd-design-item03{right:100px}
+
+      .vd-design-item04{left:100px}
+
+      .vd-design-item05{right:100px}
+
+      .vd-design-item06{right:100px}
+
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1023px){
+
+    .vd-design-item-list{
+      .vd-design-item02{left:50px}
+
+      .vd-design-item03{right:50px}
+
+      .vd-design-item04{left:50px}
+
+      .vd-design-item05{right:50px}
+
+      .vd-design-item06{right:50px}
+
+    }
+  }
+
+  @media screen and (max-width:767px){
+    .vd-qled-design .vd-qled-design-video{@include vw-mo(height,1280)}
+    .vd-qled-design .vd-qled-design-video .vd-video-box{width:100%;@include vw-mo(height,1280);transform:scale(1.1)}
+    .vd-qled-design .vd-qled-design-video .vd-video-box .vd-video-cont{width:100%;@include vw-mo(height,1280)}
+
+    .vd-qled-design .vd-design-scroll-outer{@include vw-mo(max-width,720);@include vw-mo(height,4013);padding-left:0}
+
+    .vd-design-item-list{
+      width:100%;padding-left:0;
+      [class^="vd-design-item0"]{height:auto}
+      [class^="vd-design-item0"] .vd-design-item-tit{position:absolute;@include vw-mo(font-size,24);}
+
+      .vd-design-item01 .item-inner{@include vw-mo(width,998);@include vw-mo(padding-left,158)}
+
+      .vd-design-item02{@include vw-mo(left,0);@include vw-mo(top,1337)}
+      .vd-design-item02 .item-inner{@include vw-mo(width,334)}
+      .vd-design-item02 .vd-design-item-tit{right:0;left:auto;@include vw-mo(top,-45)}
+      .vd-design-item02:after{@include vw-mo(top,363);@include vw-mo(left,0);@include vw-mo(width,230);@include vw-mo(height,230)}
+
+      .vd-design-item03{@include vw-mo(top,1591);@include vw-mo(right,0);}
+      .vd-design-item03 .item-inner{@include vw-mo(width,340)}
+      .vd-design-item03 .vd-design-item-tit{left:0;@include vw-mo(top,-45)}
+      .vd-design-item03:after{display:none}
+
+      .vd-design-item04{@include vw-mo(top,2168);@include vw-mo(left,334);}
+      .vd-design-item04 .item-inner{@include vw-mo(width,449);}
+      .vd-design-item04 .vd-design-item-tit{left:0;@include vw-mo(top,-75)}
+      .vd-design-item04:after{@include vw-mo(top,-217);@include vw-mo(left,235);@include vw-mo(width,260);@include vw-mo(height,260);background-image: url("../images/img_design_pattern02.png");}
+
+      .vd-design-item05{@include vw-mo(top,2025);@include vw-mo(right,424);}
+      .vd-design-item05 .item-inner{@include vw-mo(width,248);}
+      .vd-design-item05 .vd-design-item-tit{left:0;@include vw-mo(top,-75)}
+
+      .vd-design-item06{@include vw-mo(top,2671);@include vw-mo(right,276);z-index:2}
+      .vd-design-item06 .item-inner{@include vw-mo(width,396);}
+      .vd-design-item06 .vd-design-item-tit{left:0;@include vw-mo(top,-75)}
+
+      .vd-design-item07{@include vw-mo(top,3153);}
+      .vd-design-item07 .item-inner{@include vw-mo(width,720);}
+      .vd-design-item07:after{@include vw-mo(top,-519);@include vw-mo(left,0);@include vw-mo(width,987);@include vw-mo(height,531);background-image: url("../images/img_design_pattern03_mo.png");z-index:0}
+    }
+  }
+
+  .vd-qled-acc .vd-qled-acc-start,
+  .vd-qled-acc .vd-qled-acc-story01{overflow:hidden;height:1080px}
+  .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{overflow:hidden;height:900px}
+
+  .vd-qled-acc .vd-qled-acc-start .vd-remote-box{height:1080px}
+
+  .vd-qled-acc [class^="vd-qled-acc-story"] .vd-remote-charge [class^="vd-charge"]{opacity:1;}
+  .vd-qled-acc .vd-qled-acc-story01{position:relative;}
+  .vd-qled-acc .vd-qled-acc-story01 .vd-remote-box{bottom:0;}
+  .vd-qled-acc .vd-qled-acc-story01 .vd-remote-light{top:0;opacity:1}
+
+
+  @media screen and (min-width:768px) and (max-width:1440px){
+    .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap{@include vw-pc(height,950)}
+  }
+
+  @media screen and (max-width:767px){
+    .vd-qled-acc .vd-qled-acc-start{@include vw-mo(height,1560)}
+    .vd-qled-acc .vd-qled-acc-story01{margin-top:100px;height:780px}
+    .vd-qled-acc .vd-acc-scroll .vd-sticky-wrap,
+    .vd-qled-acc .vd-acc-scroll .vd-sticky-in{height:auto}
+    .vd-qled-acc .vd-acc-scroll-outer .vd-acc-item-list{
+      display:block;padding-left:0;
+      .vd-acc-item01{margin:0;}
+      .vd-acc-item01 .vd-acc-item-tit{@include vw-mo(padding-left,72)}
+      .vd-acc-item02{@include vw-mo(margin,66 0 0);@include vw-mo(padding-left,124)}
+      .vd-acc-item02 .item-inner{@include vw-mo(width,596)}
+      .vd-acc-item02 .vd-acc-item-tit{right:0;text-align:right;@include vw-mo(padding-right,72)}
+      .vd-acc-item03{@include vw-mo(margin-top,213);@include vw-mo(padding,0 72)}
+      .vd-acc-item03 .item-inner{@include vw-mo(width,576)}
+    }
+
+    .vd-qled-acc .vd-acc-scroll .vd-qled-acc-end{position:static;@include vw-mo(padding-top,72)}
+  }
+
+
+  /* compare */
+  .vd-qled-compare .vd-compare-tooltip-btn .icon-help{background-image: url("../images/ico_compare_tooltip.png");}
+  .vd-qled-compare .vd-compare-tooltip-btn:hover .icon-help,
+  .vd-qled-compare .vd-compare-tooltip-btn:focus .icon-help,
+  .vd-qled-compare .vd-compare-tooltip-btn.tooltip-click .icon-help{border-radius:50%;background-color:#000;background-image: url("../images/ico_compare_tooltip_on.png")}
+
+}
